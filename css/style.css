@@ -760,12 +760,7 @@ background-color:#75d6df;
     background-color: var(--btn-unactive-hover);
      color: #ffffff !important;
 }
-.rotation-animations{
-    color: #0f5fc2;
-    line-height: 48px;
-    font-size: 39px;
-    margin-top: 30px;
-}
+
 .wonderwhatmade {
     bottom: 0;
     left: 0;
@@ -1674,11 +1669,6 @@ li {
 
 
 
-
-
-
-
-
 @media only screen and (max-width: 350px){
 
 .ml-4, .mx-4 {
@@ -1694,14 +1684,13 @@ li {
     background-color: #fff;
 }
 
-
 h1{
     font-size: 23px;
 }
 
 h2{
-    font-size: 23px;
-    line-height: 30px;
+    font-size: 21px;
+    line-height: 28px;
 }
 
 .we-take-care{
@@ -1737,6 +1726,8 @@ h2{
     letter-spacing: 1px;
     font-weight: 700;
     text-align: letf;
+    color: #0f5fc2;
+
 }
 
 
@@ -1748,6 +1739,12 @@ h2{
     font-weight: 900;
 }
 
+/*.rotation-animations{
+    color: #0f5fc2;
+    line-height: 48px;
+    font-size: 39px;
+    margin-top: 30px;
+}*/
 
 
    .dottedbg{
@@ -1868,6 +1865,23 @@ h2{
 @media only screen and (min-width: 351px){
 h1{
     font-size: 25px;
+}
+.rotation-animations, .static-banner-headline{
+    font-size: 25px;
+    color: #0f5fc2;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 23px;
+}
+
+.static-banner-headline {
+    color: #212529;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 22px;
+    font-weight: 900;
 }
 
 
