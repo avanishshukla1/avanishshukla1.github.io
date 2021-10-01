@@ -19,7 +19,7 @@ $(function () {
 
 $(function () {
   $("#box1words").wordsrotator({
-   words: ['<img class="sliderb img-fluid" src="images/family.png" />','<img class="sliderb img-fluid" src="images/dental.png" />', '<img class="sliderb img-fluid" src="images/wellness-slider.png" />', '<img class="sliderb img-fluid" src="images/preventive-health.png" />','<img class="sliderb img-fluid" src="images/opthal.png" />','<img class="sliderb img-fluid" src="images/gynaecologists.png" />','<img class="sliderb img-fluid" src="images/shealth.png" />'],    
+   words: ['<img class="sliderb img-fluid" src="images/family.png" />','<img class="sliderb img-fluid" src="images/dental.png" />', '<img class="sliderb img-fluid" src="images/wellness-slider.png" />', '<img class="sliderb img-fluid" src="images/preventive-health.png" />','<img class="sliderb img-fluid" src="images/opthal.png" />','<img class="sliderb img-fluid" src="images/gynaecologists.png" />','<img class="sliderb img-fluid" src="images/shealth.png"/>'],    
    animationIn: "fadeInDown",
     animationOut: "fadeOut",
     speed: 4000

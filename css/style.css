@@ -1665,6 +1665,17 @@ h2{
     line-height: 28px;
 }
 
+.sliderb{
+    width: 336px;
+    height: 225px;
+   /* padding-right: 87px;*/
+  /*  margin-top: 25px;*/
+}
+
+
+
+
+
 .we-take-care{
      background-image: url(../images/get-know-Section-Background.png);
    /* background-position: 0% 80%;*/
@@ -1740,13 +1751,6 @@ h2{
     margin-left: 19%;
 
 }
-
-
-
-
-
-
-
 .circle1{
     background-color: #f3f8e1;
     width: 115px;
@@ -1876,6 +1880,17 @@ h2{
     font-size: 22px;
     font-weight: 900;
 }
+
+
+.sliderb{
+    width: 336px;
+    height: 225px;
+   /* padding-right: 87px;*/
+  /*  margin-top: 25px;*/
+}
+
+
+
 
 
 .we-take-care{
