@@ -921,8 +921,8 @@ li {
 }
 
 .get-know-cards .card-2{
-    /*background-color: #C9E7E5;*/
-    background-color: transparent;
+    background-color: #C9E7E5;
+   /* background-color: transparent;*/
 }
 .get-know-cards .card-3{
     background-color: transparent !important;
