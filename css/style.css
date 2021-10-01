@@ -710,20 +710,6 @@ background-color:#75d6df;
     border: 1px;
 }
 
-.pgreenbtn{
-    background-color: #0a8943;
-    color:#ffffff;
-    padding: 14px 25px;
-    font-size: 17px!important;
-   border-radius: 50px;
-    color: #ffffff;
-    font-weight: 550!important;
-    transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
-    border: 1px;
-    width: 200px;
-    margin: auto;
-}
-
 
 
 
@@ -1332,20 +1318,6 @@ li {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .inner-img01 {
     background-image: url(../images/providers.png);
 }
@@ -1746,13 +1718,34 @@ h2{
     margin-top: 30px;
 }*/
 
-
-   .dottedbg{
+.dottedbg{
         background-image: url('../images/dotted-circle.png');
     background-size: 95%;
     background-repeat: no-repeat;
     background-position: 58% 13%;
 }
+
+
+.pgreenbtn{
+    background-color: #0a8943;
+    color:#ffffff;
+    padding: 14px 25px;
+    font-size: 17px!important;
+   border-radius: 50px;
+    color: #ffffff;
+    font-weight: 550!important;
+    transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
+    border: 1px;
+    width: 200px;
+    margin-left: 19%;
+
+}
+
+
+
+
+
+
 
 .circle1{
     background-color: #f3f8e1;
@@ -1922,6 +1915,25 @@ h2{
 }
 
 
+.pgreenbtn{
+    background-color: #0a8943;
+    color:#ffffff;
+    padding: 14px 25px;
+    font-size: 17px!important;
+   border-radius: 50px;
+    color: #ffffff;
+    font-weight: 550!important;
+    transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
+    border: 1px;
+    width: 200px;
+    margin-left: 29%;
+
+}
+
+
+
+
+
 
      .dottedbg{
         background-image: url('../images/dotted-circle.png');
@@ -2045,6 +2057,28 @@ h1{
     background-repeat: no-repeat;
     background-position: 58% 13%;
 }
+
+
+
+.pgreenbtn{
+    background-color: #0a8943;
+    color:#ffffff;
+    padding: 14px 25px;
+    font-size: 17px!important;
+   border-radius: 50px;
+    color: #ffffff;
+    font-weight: 550!important;
+    transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
+    border: 1px;
+    width: 200px;
+    margin-left: 27%;
+
+}
+
+
+
+
+
 
 
 .circle1{
