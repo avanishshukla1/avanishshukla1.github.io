@@ -3646,7 +3646,8 @@ h1{
 
 .footer_quick_links{
     font-size: 15px;
-    justify-content: space-around;
+/*     justify-content: space-around; */
+	padding-left:6%;
 }
 
 .footer_quick_links a{
