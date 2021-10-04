@@ -218,8 +218,8 @@ autoplayTimeout:3000,
    responsive:
 {
 0:{items:2},
-575:{items:2},
-768:{items:2},
+575:{items:3},
+768:{items:4},
 991:{items:3},
 1199:{items:3}
 }
