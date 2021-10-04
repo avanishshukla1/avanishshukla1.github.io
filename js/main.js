@@ -207,3 +207,23 @@ autoplayTimeout:4000,
 });
 
 
+
+
+$(document).ready(function() {
+    $("#corporateslider").owlCarousel({
+loop:true,
+margin:30,
+autoplay:true,
+autoplayTimeout:3000,
+   responsive:
+{
+0:{items:2},
+575:{items:2},
+768:{items:2},
+991:{items:3},
+1199:{items:3}
+}
+    });
+
+});
+
