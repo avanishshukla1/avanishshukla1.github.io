@@ -2089,21 +2089,28 @@ h1{
      background-image: url(../images/get-know-Section-Background.png);
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
-    background-size: 53%;
+    background-size: 100%;
 }
 
 .whereur{
     background: url(../images/section-background.png);
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 100%;
 }
 
 .get-know-container {
     background-image: url(../images/get-know-Section-Background.png);
     background-position: 0% 80%;
     background-repeat: no-repeat;
-    background-size: 65%;
+    background-size: 100%;
+}
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 64%;
 }
 
 
@@ -2332,6 +2339,33 @@ h1{
 
 .healthcampbox h5{
     color: #0f5fc2;
+}
+
+.we-take-care{
+     background-image: url(../images/get-know-Section-Background.png);
+   /* background-position: 0% 80%;*/
+    background-repeat: no-repeat;
+    background-size: 53%;
+}
+
+.whereur{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 55%;
 }
 
 }
