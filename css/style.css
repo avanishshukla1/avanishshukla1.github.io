@@ -1897,13 +1897,13 @@ h2{
      background-image: url(../images/get-know-Section-Background.png);
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 100%;
 }
 .whereur{
     background: url(../images/section-background.png);
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 100%;
 }
 .bringing-section{
     background: url(../images/section-background.png);
@@ -1916,7 +1916,7 @@ h2{
     background-image: url(../images/get-know-Section-Background.png);
     background-position: 0% 80%;
     background-repeat: no-repeat;
-    background-size: 64%;
+    background-size: 100%;
 }
 
 
@@ -1944,12 +1944,6 @@ h2{
     margin-left: 29%;
 
 }
-
-
-
-
-
-
      .dottedbg{
         background-image: url('../images/dotted-circle.png');
     background-size: 85%;
@@ -2091,9 +2085,26 @@ h1{
 }
 
 
+.we-take-care{
+     background-image: url(../images/get-know-Section-Background.png);
+   /* background-position: 0% 80%;*/
+    background-repeat: no-repeat;
+    background-size: 53%;
+}
 
+.whereur{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
 
-
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
 
 
 .circle1{
@@ -3380,6 +3391,7 @@ h1{
     width: 300px;
     border-radius: 50px;
     border: none;
+    font-size: 12.5px;
 }
 #input_search_query:focus-visible{
   outline: none;
