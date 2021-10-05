@@ -2071,6 +2071,15 @@ h2{
     background-color: #fff;
 }
 
+.footeragent{
+   background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: 115%;
+    padding-top: 200px;
+    background-position: 92% 7%;
+    background-color:#f2f9f5;
+}
+
 .footerblue{
     text-align: left;
     padding-top: 20px;
@@ -2131,19 +2140,19 @@ h2{
 }
 
 .apolloclinic{
-    margin-top: -622px;
+    margin-top: -599px;
     margin-left: 0%;
       width: 70px;
 }
 .lalpath{
-    margin-top: -737px;
+    margin-top: -691px;
     margin-left: 72%;
      width: 70px;
 }
 
 .express-clinic{
     margin-top: -666px;
-    margin-left: 58%;
+    margin-left: 63%;
    width: 70px;
 }
 
