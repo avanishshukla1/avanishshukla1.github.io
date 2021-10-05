@@ -1840,10 +1840,6 @@ h2{
 }
 
 
-
-
-
-
 .max-life{
     margin-top: -534px;
     margin-left: 16px;
@@ -1856,7 +1852,7 @@ h2{
     width: 70px;
  }
  .srl{
-    margin-top: -636px
+    margin-top: -636px;
     margin-left: 48%;
      width: 70px;
 }
@@ -1874,8 +1870,8 @@ h2{
 }
 
 .apolloclinic{
-    margin-top: -575px;
-    margin-left: 0%;
+    margin-top: -640px;
+    margin-left: -3%;
      width: 70px;
 }
 .lalpath{
@@ -1891,6 +1887,48 @@ h2{
 }
 
 
+
+.east{
+     font-size: 13px;
+     line-height: 17px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -483px;
+    margin-left: 59%;
+    width: 160px;
+
+}
+
+.west{
+     font-size: 12px;
+    line-height: 17px;
+     font-weight: 600;
+     text-align: center;
+      margin-top: -366px;
+      margin-left: -14%;
+    width: 160px;
+
+}
+
+.north{
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    margin-top: -563px;
+    margin-left: 6%;
+    width: 160px;
+    text-align: center;
+}
+
+.south{
+     font-size: 13px;
+     line-height: 17px;
+    font-weight: 600;
+     text-align: center;
+    width: 160px;
+    margin-top: -245px;
+    margin-left: 18%;
+}
 
 
 
@@ -2159,6 +2197,51 @@ h2{
 
 
 
+.east{
+     font-size: 13px;
+     line-height: 17px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -511px;
+    margin-left: 66%;
+    width: 160px;
+
+}
+
+.west{
+     font-size: 12px;
+    line-height: 17px;
+     font-weight: 600;
+     text-align: center;
+      margin-top: -423px;
+      margin-left: -14%;
+    width: 160px;
+
+}
+
+.north{
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    margin-top: -606px;
+    margin-left: 9%;
+    width: 160px;
+    text-align: center;
+}
+
+.south{
+     font-size: 13px;
+     line-height: 17px;
+    font-weight: 600;
+     text-align: center;
+    width: 160px;
+    margin-top: -245px;
+    margin-left: 18%;
+}
+
+
+
+
 
 
 .circle1{
@@ -2395,6 +2478,45 @@ h1{
    width: 80px;
 }
 
+.east{
+     font-size: 13px;
+     line-height: 17px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -555px;
+    width: 160px;
+}
+
+.west{
+     font-size: 13px;
+    line-height: 17px;
+     font-weight: 600;
+     text-align: center;
+      margin-top: -386px;
+      margin-left: -10%;
+    width: 160px;
+}
+
+.north{
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    margin-top: -649px;
+    margin-left: 9%;
+    width: 160px;
+    text-align: center;
+}
+
+.south{
+     font-size: 13px;
+     line-height: 17px;
+    font-weight: 600;
+     text-align: center;
+    width: 160px;
+    margin-top: -253px;
+    margin-left: 21%;
+}
+
 
 
 
@@ -2561,8 +2683,6 @@ h1{
 
 
 
-
-
 .max-life{
     margin-top: -819px;
     margin-left: 38px;
@@ -2599,8 +2719,44 @@ h1{
 }
 
 
+.east{
+     font-size: 13px;
+     line-height: 17px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -555px;
+    width: 160px;
+}
 
+.west{
+     font-size: 13px;
+    line-height: 17px;
+     font-weight: 600;
+     text-align: center;
+      margin-top: -386px;
+      margin-left: -10%;
+    width: 160px;
+}
 
+.north{
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    margin-top: -649px;
+    margin-left: 9%;
+    width: 160px;
+    text-align: center;
+}
+
+.south{
+     font-size: 13px;
+     line-height: 17px;
+    font-weight: 600;
+     text-align: center;
+    width: 160px;
+    margin-top: -253px;
+    margin-left: 21%;
+}
 
 
 
@@ -2817,7 +2973,44 @@ h1{
 
 
 
+.east{
+     font-size: 13px;
+     line-height: 17px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -555px;
+    width: 160px;
+}
 
+.west{
+     font-size: 13px;
+    line-height: 17px;
+     font-weight: 600;
+     text-align: center;
+      margin-top: -386px;
+      margin-left: -10%;
+    width: 160px;
+}
+
+.north{
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    margin-top: -649px;
+    margin-left: 9%;
+    width: 160px;
+    text-align: center;
+}
+
+.south{
+     font-size: 13px;
+     line-height: 17px;
+    font-weight: 600;
+     text-align: center;
+    width: 160px;
+    margin-top: -253px;
+    margin-left: 21%;
+}
 
 
 .circle1{
@@ -3028,8 +3221,8 @@ h1{
      margin-left: -161%;
 }
 .apolloclinic{
-    margin-top: -353px;
-    margin-left: -317%;   
+    margin-top: -395px;
+    margin-left: -333%; 
 }
 .lalpath{
     margin-top: -388px;
@@ -3039,6 +3232,48 @@ h1{
 .express-clinic{
     margin-top: -276px;
     margin-left: 54%;
+}
+
+
+
+.east{
+     font-size: 13px;
+     line-height: 17px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -325px;
+    margin-left: -11%;
+    width: 160px;
+}
+
+.west{
+     font-size: 13px;
+    line-height: 17px;
+     font-weight: 600;
+     text-align: center;
+      margin-top: -219px;
+      margin-left: -225%;
+    width: 160px;
+}
+
+.north{
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    margin-top: -374px;
+    margin-left: -274%;
+    width: 160px;
+    text-align: center;
+}
+
+.south{
+     font-size: 13px;
+     line-height: 17px;
+    font-weight: 600;
+     text-align: center;
+    width: 160px;
+   margin-top: -107px;
+    margin-left: 30%;
 }
 
 
@@ -3201,6 +3436,53 @@ h1{
     margin-top: -343px;
     margin-left: -142%;
 }
+
+
+
+.east{
+     font-size: 13px;
+     line-height: 17px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -338px;
+    width: 160px;
+
+}
+
+.west{
+     font-size: 13px;
+    line-height: 17px;
+     font-weight: 600;
+     text-align: center;
+      margin-top: -338px;
+      margin-left: -352%;
+    width: 160px;
+
+}
+
+.north{
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    margin-top: -558px;
+    margin-left: 87%;
+    width: 160px;
+    text-align: center;
+}
+
+.south{
+     font-size: 13px;
+     line-height: 17px;
+    font-weight: 600;
+     text-align: center;
+    width: 160px;
+    margin-top: -93px;
+    margin-left: -18%;
+}
+
+
+
+
 
 
 
@@ -3389,6 +3671,46 @@ h1{
 
 
 
+.east{
+     font-size: 13px;
+     line-height: 17px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -338px;
+    width: 160px;
+
+}
+
+.west{
+     font-size: 13px;
+    line-height: 17px;
+     font-weight: 600;
+     text-align: center;
+      margin-top: -338px;
+      margin-left: -352%;
+    width: 160px;
+
+}
+
+.north{
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    margin-top: -558px;
+    margin-left: 87%;
+    width: 160px;
+    text-align: center;
+}
+
+.south{
+     font-size: 13px;
+     line-height: 17px;
+    font-weight: 600;
+     text-align: center;
+    width: 160px;
+    margin-top: -93px;
+    margin-left: -18%;
+}
 
 
 .circle1{
@@ -3555,7 +3877,7 @@ h1{
      margin-top: -614px;
 }
 .apolloclinic{
-    margin-top: -505px;
+    margin-top: -464px;
     margin-left: -173%;
 }
 .lalpath{
@@ -3567,6 +3889,51 @@ h1{
     margin-top: -301px;
     margin-left: -148%;
 }
+
+
+.east{
+     font-size: 13px;
+     line-height: 17px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -338px;
+    width: 160px;
+}
+
+.west{
+     font-size: 13px;
+    line-height: 17px;
+     font-weight: 600;
+     text-align: center;
+      margin-top: -311px;
+      margin-left: -369%;
+    width: 160px;
+}
+
+.north{
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    margin-top: -467px;
+    margin-left: 54%;
+    width: 160px;
+    text-align: center;
+}
+
+.south{
+     font-size: 13px;
+     line-height: 17px;
+    font-weight: 600;
+     text-align: center;
+    width: 160px;
+    margin-top: -93px;
+    margin-left: -48%;
+}
+
+
+
+
+
 
 
 .circle1{
@@ -3741,6 +4108,51 @@ h1{
     margin-top: -343px;
     margin-left: -142%;
 }
+
+
+.east{
+     font-size: 13px;
+     line-height: 17px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -338px;
+    width: 160px;
+
+}
+
+.west{
+     font-size: 13px;
+    line-height: 17px;
+     font-weight: 600;
+     text-align: center;
+      margin-top: -338px;
+      margin-left: -352%;
+    width: 160px;
+
+}
+
+.north{
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    margin-top: -558px;
+    margin-left: 87%;
+    width: 160px;
+    text-align: center;
+}
+
+.south{
+     font-size: 13px;
+     line-height: 17px;
+    font-weight: 600;
+     text-align: center;
+    width: 160px;
+    margin-top: -93px;
+    margin-left: -18%;
+}
+
+
+
 
 
 .circle1{
@@ -3953,6 +4365,50 @@ h1{
     margin-top: -343px;
     margin-left: -142%;
 }
+
+
+
+.east{
+     font-size: 13px;
+     line-height: 17px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -338px;
+    width: 160px;
+
+}
+
+.west{
+     font-size: 13px;
+    line-height: 17px;
+     font-weight: 600;
+     text-align: center;
+      margin-top: -338px;
+      margin-left: -352%;
+    width: 160px;
+
+}
+
+.north{
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    margin-top: -558px;
+    margin-left: 87%;
+    width: 160px;
+    text-align: center;
+}
+
+.south{
+     font-size: 13px;
+     line-height: 17px;
+    font-weight: 600;
+     text-align: center;
+    width: 160px;
+    margin-top: -93px;
+    margin-left: -18%;
+}
+
 
 
 
@@ -4366,8 +4822,8 @@ h1{
      margin-left: 1%;
 }
 .apolloclinic{
-    margin-top: -597px;
-    margin-left: -162%;
+    margin-top: -492px;
+    margin-left: -125%;
 }
 .lalpath{
     margin-top: -523px;
@@ -4378,6 +4834,54 @@ h1{
     margin-top: -343px;
     margin-left: -142%;
 }
+
+
+.east{
+     font-size: 13px;
+     line-height: 17px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -432px;
+    width: 160px;
+
+}
+
+.west{
+     font-size: 13px;
+    line-height: 17px;
+     font-weight: 600;
+     text-align: center;
+      margin-top: -338px;
+      margin-left: -352%;
+    width: 160px;
+
+}
+
+.north{
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 600;
+    margin-top: -558px;
+    margin-left: 87%;
+    width: 160px;
+    text-align: center;
+}
+
+.south{
+     font-size: 13px;
+     line-height: 17px;
+    font-weight: 600;
+     text-align: center;
+    width: 160px;
+    margin-top: -93px;
+    margin-left: -18%;
+}
+
+
+
+
+
+
 
 .circle1{
     background-color: #f3f8e1;
