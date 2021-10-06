@@ -2109,6 +2109,15 @@ h2{
     background-color: #fff;
 }
 
+.footerins{
+   background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: 115%;
+    padding-top: 200px;
+    background-position: 92% 7%;
+    background-color: #eff9fb;
+}
+
 .footeragent{
    background-image: url(../images/footer.png);
     background-repeat: no-repeat;
@@ -2117,6 +2126,16 @@ h2{
     background-position: 92% 7%;
     background-color:#f2f9f5;
 }
+
+.footercorp{
+   background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: 115%;
+    padding-top: 200px;
+    background-position: 92% 7%;
+    background-color: #f3f9f5;
+}
+
 
 .footerblue{
     text-align: left;
