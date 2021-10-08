@@ -3332,7 +3332,7 @@ h1{
    transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 .mrmns {
-    margin-right: -121px;
+    margin-right: -18px;
 }
 
  h1{
@@ -3353,7 +3353,7 @@ h1{
 }
 
 .btn-class{
-    padding: 14px 20px;
+    padding: 14px 15px;
     font-size: 20px;
    border-radius: 50px;
     color: #ffffff;
@@ -5262,7 +5262,7 @@ h1{
 
 
 .mainhead{
-  padding-top: 70px;
+  padding-top: 50px;
     }
 
 .circle1{
