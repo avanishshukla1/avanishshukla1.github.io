@@ -4,7 +4,7 @@
     }
 
 body{
-	font-size:15px;
+	font-size:14px;
     font-family: 'Montserrat', sans-serif;  
      font-weight: 300;
     line-height: 27px;
@@ -161,20 +161,31 @@ a:hover{
     background-color: #ffffff;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    padding: 15px;
+    padding: 20px;
     margin: 10px 5px 5px 10px;
 
 }
+.box3:before {
+  font-family: Georgia, serif;
+  content: "“";
+  position: absolute;
+  bottom: 131px;
+  line-height: 100px;
+  left: 10px;
+ font-size: 70px;
+   color: #99acc0;
+ }
 .box3:after {
   font-family: Georgia, serif;
   content: "”";
   position: absolute;
-  bottom: -69px;
+  bottom: -59px;
   line-height: 100px;
-  right: 0px;
-  font-size: 10em;
-  color: rgba(238, 238, 238, 0.8);
+  right: 10px;
+  font-size: 70px;
+  color: #99acc0;
  }
+
 
 .box2 img{
     width: 100px;
@@ -1469,7 +1480,7 @@ li {
     border-top-left-radius: 15px;
 }
 
-@media only screen and (max-width: 575px){
+@media only screen and (max-width: 768px){
 
 /*.navbar-light .navbar-brand {
     color: rgba(0,0,0,.9);
@@ -1614,7 +1625,7 @@ li {
 
 
 
-@media only screen and (min-width: 575.50px){
+@media only screen and (min-width: 768.50px){
 .activate2{
     display: none;
 }
@@ -1662,6 +1673,13 @@ li {
     border-radius: 20px;
     padding: 15px;
     margin-bottom: 15px;
+}
+
+.near{
+    font-size:20px;
+     color:#666; 
+     margin-left:-11px; 
+     font-weight:350;
 }
 
 
@@ -2035,6 +2053,16 @@ h2{
 
 
 @media only screen and (min-width: 351px){
+
+.near{
+    font-size:20px;
+     color:#666; 
+     margin-left:-11px; 
+     font-weight:350;
+}
+
+
+
 
 
 h1{
@@ -5113,7 +5141,7 @@ h1{
 
 
       h1{
-    font-size: 40px;
+    font-size: 39px;
 }
 
 .pl-88{
@@ -6730,7 +6758,7 @@ h1{
 }
 .circle1 p{
    font-size: 18px;
-   font-weight: 300;
+   font-weight: 400;
 }
 
 .circle2{
@@ -6745,7 +6773,7 @@ h1{
 }
 .circle2 p{
    font-size: 18px;
-   font-weight: 300;
+   font-weight: 400;
 }
 
 .circle3{
@@ -6760,7 +6788,7 @@ h1{
 
 .circle3 p{
    font-size: 18px;
-   font-weight: 300;
+   font-weight: 400;
 }
 
 .circle4{
@@ -6773,7 +6801,7 @@ h1{
   }
 .circle4 p{
    font-size: 18px;
-   font-weight: 300;
+   font-weight: 400;
 }
  .card-info h5{
     font-size: 16px;
@@ -6810,7 +6838,7 @@ h1{
 .sliderb{
     width: 592px;
     height: 500px;
-    padding-right: 87px;
+  /*  padding-right: 87px;*/
     margin-top: -65px;
 }
 
@@ -6825,7 +6853,7 @@ h1{
     color: #414143;
 }
 .rotation-animations, .static-banner-headline{
-    font-size: 36px;
+    font-size: 39px;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -6833,9 +6861,9 @@ h1{
 .static-banner-headline {
     color: #212529;
     letter-spacing: 1px;
-    line-height: 40px;
-    font-size: 35px;
-    font-weight: 900;
+    line-height: 32px;
+    font-size: 26px;
+    font-weight: 350;
     text-align: left;
     width: 450px;
 }
@@ -7439,6 +7467,7 @@ transform:translateY(-50%);}
      color: #ffffff;
      font-weight: 500;
      font-size: 20px;
+
 }
  .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
      color: #1ebdc2;
