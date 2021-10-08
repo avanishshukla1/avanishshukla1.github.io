@@ -134,7 +134,7 @@ viewedSlider.owlCarousel(
 loop:true,
 margin:30,
 autoplay:true,
-autoplayTimeout:2500,
+autoplayTimeout:5000,
 nav:false,
 dots:false,
 responsive:
@@ -213,17 +213,45 @@ $(document).ready(function() {
     $("#corporateslider").owlCarousel({
 loop:true,
 margin:30,
+arrows: true,
 autoplay:true,
+
 autoplayTimeout:3000,
    responsive:
 {
 0:{items:2},
 575:{items:3},
 768:{items:4},
-991:{items:3},
-1199:{items:3}
+991:{items:5},
+1199:{items:5}
 }
+
     });
 
+
+if($('.cor_prev').length)
+{
+var prev = $('.cor_prev');
+prev.on('click', function()
+{
+viewedSlider.trigger('prev.owl.carousel');
 });
+}
+
+if($('.cor_next').length)
+{
+var next = $('.cor_next');
+next.on('click', function()
+{
+viewedSlider.trigger('next.owl.carousel');
+});
+}
+
+
+
+
+});
+
+
+
 
