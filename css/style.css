@@ -477,7 +477,7 @@ header{
     margin-bottom: 10px;
     font-weight: 900;
     color: #231f20;
-    font-size: 28px;
+    font-size: 26px;
     }
 .fingr-wrapper:hover{
     transform: scale(1.05);
@@ -6839,7 +6839,7 @@ h1{
     width: 592px;
     height: 500px;
   /*  padding-right: 87px;*/
-    margin-top: -65px;
+    margin-top: -35px;
 }
 
 .head {
