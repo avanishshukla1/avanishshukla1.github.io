@@ -234,6 +234,12 @@ background-position: right top;
 header{
     background-color: #ffffff;
 }
+
+.head{
+     font-family: 'Montserrat', sans-serif;  
+}
+
+
 .head1 {
     font-size: 28px;
     font-weight: 800;
@@ -527,12 +533,7 @@ header{
     /* column-gap: 30px; */
     row-gap: 30px;
 }
-.bringing-section {
-    background: url(../images/section-background.png);
-    background-position: right top;
-    background-repeat: no-repeat;
-    background-size: 55%;
-}
+
 .fingertip-section{
     }
 .bggrey{
@@ -1690,6 +1691,12 @@ li {
     margin-bottom: 15px;
 }
 
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+
+
 .near{
     font-size:20px;
      color:#666; 
@@ -1750,6 +1757,8 @@ h2{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+
 
 .get-know-container {
     background-image: url(../images/get-know-Section-Background.png);
@@ -2114,7 +2123,10 @@ h1{
     margin-bottom: 15px;
 }
 
-
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
 
 
 h2{
@@ -2267,6 +2279,17 @@ h2{
     background-position: 58% 13%;
 }
 
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+
 .max-life{
     margin-top: -635px;
     margin-left: 26px;
@@ -2374,9 +2397,6 @@ h2{
   font-weight: 550!important;
    transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
-
-
-
 
 .circle1{
     background-color: #f3f8e1;
@@ -2490,6 +2510,11 @@ h2{
     padding: 15px;
     margin-bottom: 15px;
   
+}
+
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
 }
 
 
@@ -2840,6 +2865,12 @@ h1{
     margin-bottom: 15px;
    
 }
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+
+
  .border-blue{
         padding: 7px 5px 7px 6px;
      font-size: 20px;
@@ -3113,6 +3144,12 @@ h1{
     margin-left: 27%;
 
 }
+
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+
 .border-blue{
         padding: 14px 20px;
      font-size: 20px;
@@ -3374,7 +3411,10 @@ h1{
     min-height: 280px;
 }
 
-
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
 
 .pgreenbtn{
     background-color: #0a8943;
@@ -3461,6 +3501,20 @@ h1{
     background-repeat: no-repeat;
     background-size: 53%;
 }
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 64%;
+}
 
 
 
@@ -3501,8 +3555,6 @@ h1{
     margin-left: 54%;
 }
 
-
-
 .east{
      font-size: 13px;
      line-height: 17px;
@@ -3512,7 +3564,6 @@ h1{
     margin-left: -11%;
     width: 160px;
 }
-
 .west{
      font-size: 13px;
     line-height: 17px;
@@ -3546,8 +3597,6 @@ h1{
 .mainhead{
   padding-top: 18px;
     }
-
-
 
 .circle1{
     background-color: #f3f8e1;
@@ -3642,6 +3691,12 @@ h1{
     min-height: 280px;
 }
 
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+
+
 .mrmns {
     margin-right: -30px;
 }
@@ -3690,13 +3745,6 @@ h1{
 }
 
 
-
-
-
-
-
-
-
 .border-blue1{
     padding: 14px 21px;
      font-size: 15px;
@@ -3727,8 +3775,19 @@ h1{
     background-size: 53%;
 }
 
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
 
-
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 64%;
+}
 
 .max-life{
     margin-top: -819px;
@@ -3765,8 +3824,6 @@ h1{
     margin-left: -142%;
 }
 
-
-
 .east{
      font-size: 13px;
      line-height: 17px;
@@ -3774,7 +3831,6 @@ h1{
     font-weight: 600;
     margin-top: -338px;
     width: 160px;
-
 }
 
 .west{
@@ -3938,6 +3994,12 @@ h1{
     min-height: 280px;
 }
 
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+
+
 .mrmns {
     margin-right: -30px;
 }
@@ -3959,6 +4021,7 @@ h1{
 }
    h1{
     font-size: 34px;
+    font-weight: 600;
 }
 
 .pl-88{
@@ -3986,10 +4049,6 @@ h1{
     transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
     z-index: 1;
 }
-
-
-
-
 
 .border-blue1{
     padding: 14px 21px;
@@ -4020,6 +4079,20 @@ h1{
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
     background-size: 53%;
+}
+
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 64%;
 }
 
 
@@ -4078,7 +4151,6 @@ h1{
     width: 160px;
 
 }
-
 .north{
     font-size: 13px;
     line-height: 17px;
@@ -4102,7 +4174,6 @@ h1{
 .mainhead{
   padding-top: 30px;
     }
-
 
 .circle1{
     background-color: #f3f8e1;
@@ -4214,6 +4285,10 @@ h1{
 }
 }
 
+
+
+
+
 @media only screen and (min-width: 1000px){
 
 
@@ -4225,11 +4300,15 @@ h1{
     margin-bottom: 15px;
     min-height: 280px;
 }
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+    height: 100%;
+}
 
 .mrmns {
     margin-right: -11px;
 }
-
 
 .pgreenbtn{
     background-color: #0a8943;
@@ -4243,7 +4322,6 @@ h1{
     border: 1px;
     width: 200px;
     margin-left: 27%;
-
 }
 
 .border-blue{
@@ -4282,6 +4360,7 @@ h1{
 
 h1{
     font-size: 36px;
+    font-weight: 600;
 }
 
 .pl-88{
@@ -4318,6 +4397,22 @@ h1{
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
     background-size: 53%;
+}
+
+
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 64%;
 }
 
 
@@ -4399,8 +4494,6 @@ h1{
 .mainhead{
   padding-top: 30px;
     }
-
-
 
 .circle1{
     background-color: #f3f8e1;
@@ -4512,6 +4605,12 @@ h1{
     min-height: auto;
 }
 
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+    height: auto;
+}
+
 .pgreenbtn{
     background-color: #0a8943;
     color:#ffffff;
@@ -4542,6 +4641,7 @@ h1{
 
    h1{
     font-size: 38px;
+    font-weight: 600;
 }
 .pl-88{
     padding-left:88px;
@@ -4576,6 +4676,21 @@ h1{
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
     background-size: 53%;
+}
+
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 64%;
 }
 
 
@@ -4660,8 +4775,6 @@ h1{
 .mainhead{
   padding-top: 30px;
     }
-
-
 
 .circle1{
     background-color: #f3f8e1;
@@ -4779,6 +4892,14 @@ h1{
     margin-left: 9%;
 }
 
+
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+
+
+
 .border-green1{
     background-color: #0a8943;
     color:#ffffff;
@@ -4791,7 +4912,8 @@ h1{
     border: 1px;
 }
  h1{
-    font-size: 40px;
+    font-size: 39px;
+    font-weight: 600;
 }
 
 .pl-88{
@@ -4858,7 +4980,19 @@ h1{
     background-size: 53%;
 }
 
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
 
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 46%;
+}
 
 .max-life{
     margin-top: -819px;
@@ -5213,6 +5347,14 @@ h1{
     padding-top: 100px;
     margin-bottom: 120px;
 }
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+
+
 .search-box {
     justify-content: space-around;
     background-color: #c1e6ff;
@@ -5353,6 +5495,13 @@ h1{
     margin-left: 9%;
 }
 
+
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+
+
 .border-green1{
     background-color: #0a8943;
     color:#ffffff;
@@ -5366,11 +5515,9 @@ h1{
     text-align:left!important;
 }
 
-
-
-
-      h1{
+ h1{
     font-size: 39px;
+    font-weight: 600;
 }
 
 .pl-88{
@@ -5422,7 +5569,7 @@ h1{
     background: url(../images/section-background.png);
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 37%;
 }
 
 .we-take-care{
@@ -5431,6 +5578,29 @@ h1{
     background-repeat: no-repeat;
     background-size: 53%;
 }
+
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 47%;
+}
+.footerbg {
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: 114%;
+    padding-top: 241px;
+    background-position: 83% 5%;
+    background-color: #fff;
+}
+
 
 .max-life{
     margin-top: -819px;
@@ -5636,6 +5806,14 @@ h1{
     margin-left: 9%;
 }
 
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+
+
+
+
 .border-green1{
     background-color: #0a8943;
     color:#ffffff;
@@ -5706,7 +5884,7 @@ h1{
     background: url(../images/section-background.png);
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 37%;
+    background-size: 35%;
 }
 
 .we-take-care{
@@ -5714,6 +5892,20 @@ h1{
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
     background-size: 49%;
+}
+
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 47%;
 }
 
 .card-info h4{
@@ -5725,8 +5917,6 @@ h1{
     font-size: 27px;
     font-weight: 700;
 }
-
-
 
 .max-life{
     margin-top: -819px;
@@ -5919,6 +6109,11 @@ h1{
     margin-left: 9%;
 }
 
+ .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+
 .border-green1{
     background-color: #0a8943;
     color:#ffffff;
@@ -5962,7 +6157,6 @@ h1{
     color: #ffffff;
 }
 
-
 .border-blue1{
     padding: 14px 25px;
      font-size: 20px;
@@ -5997,6 +6191,20 @@ h1{
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
     background-size: 53%;
+}
+
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 48%;
 }
 
 
@@ -6190,6 +6398,13 @@ h1{
     margin-left: 9%;
 }
 
+
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+
+
 .border-green1{
     background-color: #0a8943;
     color:#ffffff;
@@ -6260,16 +6475,29 @@ h1{
     background: url(../images/section-background.png);
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 37%;
+    background-size: 32%;
 }
 
 .we-take-care{
      background-image: url(../images/get-know-Section-Background.png);
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
-    background-size: 53%;
+    background-size: 45%;
 }
 
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 48%;
+}
 
 .max-life{
     margin-top: -819px;
@@ -6458,6 +6686,12 @@ h1{
     margin-left: 9%;
 }
 
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+
+
 .border-green1{
     background-color: #0a8943;
     color:#ffffff;
@@ -6528,14 +6762,28 @@ h1{
     background: url(../images/section-background.png);
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 37%;
+    background-size: 30%;
 }
 
 .we-take-care{
      background-image: url(../images/get-know-Section-Background.png);
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
-    background-size: 53%;
+    background-size: 42%;
+}
+
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 56%;
+}
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 49%;
 }
 
 
@@ -6729,6 +6977,12 @@ h1{
     margin-left: 9%;
 }
 
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+
+
 .border-green1{
     background-color: #0a8943;
     color:#ffffff;
@@ -6809,6 +7063,29 @@ h1{
     background-size: 53%;
 }
 
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.footerbg {
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: 117%;
+    padding-top: 304px;
+    background-position: 83% 5%;
+    background-color: #fff;
+}
+
 
 .max-life{
     margin-top: -819px;
@@ -6881,7 +7158,6 @@ h1{
     margin-top: -93px;
     margin-left: -18%;
 }
-
 
 .mainhead{
   padding-top: 70px;
@@ -6998,6 +7274,11 @@ h1{
     margin-left: 9%;
 }
 
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+
 .border-green1{
     background-color: #0a8943;
     color:#ffffff;
@@ -7068,14 +7349,28 @@ h1{
     background: url(../images/section-background.png);
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 37%;
+    background-size: 27%;
 }
 
 .we-take-care{
      background-image: url(../images/get-know-Section-Background.png);
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
-    background-size: 53%;
+    background-size: 38%;
+}
+
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 48%;
 }
 
 
@@ -7268,6 +7563,12 @@ h1{
     margin-left: 9%;
 }
 
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+
+
 .border-green1{
     background-color: #0a8943;
     color:#ffffff;
@@ -7338,14 +7639,28 @@ h1{
     background: url(../images/section-background.png);
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 37%;
+    background-size: 27%;
 }
 
 .we-take-care{
      background-image: url(../images/get-know-Section-Background.png);
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
-    background-size: 53%;
+    background-size: 36%;
+}
+
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 46%;
 }
 
 
@@ -7538,6 +7853,12 @@ h1{
     margin-left: 9%;
 }
 
+
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+
 .border-green1{
     background-color: #0a8943;
     color:#ffffff;
@@ -7608,14 +7929,28 @@ h1{
     background: url(../images/section-background.png);
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 37%;
+    background-size: 26%;
 }
 
 .we-take-care{
      background-image: url(../images/get-know-Section-Background.png);
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
-    background-size: 53%;
+    background-size: 35%;
+}
+
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 45%;
+}
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 44%;
 }
 
 
@@ -7808,6 +8143,12 @@ h1{
     margin-left: 9%;
 }
 
+
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+
 .border-green1{
     background-color: #0a8943;
     color:#ffffff;
@@ -7878,16 +8219,30 @@ h1{
     background: url(../images/section-background.png);
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 37%;
+    background-size: 24%;
 }
 
 .we-take-care{
      background-image: url(../images/get-know-Section-Background.png);
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
-    background-size: 53%;
+    background-size: 33%;
 }
 
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 43%;
+}
+
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 41%;
+}
 
 .max-life{
     margin-top: -819px;
@@ -8078,6 +8433,11 @@ h1{
     margin-left: 9%;
 }
 
+   .card-wrapper{
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+}
+
 .border-green1{
     background-color: #0a8943;
     color:#ffffff;
@@ -8148,14 +8508,28 @@ h1{
     background: url(../images/section-background.png);
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 37%;
+    background-size: 22%;
 }
 
 .we-take-care{
      background-image: url(../images/get-know-Section-Background.png);
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
-    background-size: 53%;
+    background-size: 32%;
+}
+
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 45%;
+}
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 39%;
 }
 
 
@@ -8230,13 +8604,9 @@ h1{
     margin-top: -93px;
     margin-left: -18%;
 }
-
-
 .mainhead{
   padding-top: 70px;
     }
-
-
 .btn-class{
     padding: 14px 21px;
     font-size: 20px;
@@ -8417,14 +8787,28 @@ h1{
     background: url(../images/section-background.png);
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 37%;
+    background-size: 22%;
 }
 
 .we-take-care{
      background-image: url(../images/get-know-Section-Background.png);
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
-    background-size: 53%;
+    background-size: 32%;
+}
+
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 45%;
+}
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 39%;
 }
 
 
@@ -8685,14 +9069,28 @@ h1{
     background: url(../images/section-background.png);
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 37%;
+    background-size: 22%;
 }
 
 .we-take-care{
      background-image: url(../images/get-know-Section-Background.png);
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
-    background-size: 53%;
+    background-size: 32%;
+}
+
+.get-know-container {
+    background-image: url(../images/get-know-Section-Background.png);
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 45%;
+}
+
+.bringing-section{
+    background: url(../images/section-background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 39%;
 }
 
 
@@ -8768,11 +9166,9 @@ h1{
     margin-left: -18%;
 }
 
-
 .mainhead{
   padding-top: 70px;
     }
-
 
 .btn-class{
     padding: 14px 21px;
@@ -8871,11 +9267,6 @@ h1{
 
 
 
-
-
-
-
-
 @media only screen and (max-width: 768px){
 
 .mdcenter{
@@ -8889,8 +9280,6 @@ h1{
 @media only screen and (max-width: 426px){
 
 
-
-
 .mainhead1{
   padding-top: 50px;
     }
@@ -8898,10 +9287,7 @@ h1{
 .circletspace{
     padding-top: 11px;
 }
-.card-wrapper{
-    padding: 10px 10px 10px 30px;
-    border-radius: 15px;
-}
+
    .btn-white {
     background-color:#ffffff;
     color: #135ec3;
@@ -8914,11 +9300,7 @@ h1{
     width: 250px;
     text-align: center;
 }
-.card-info h5{
-    font-size: 16px;
-    font-weight: 900;
-    padding-top: 10px;
-}
+
 
 .custom-shape-divider-bottom-1630575888 {
     bottom: 0;
@@ -8963,10 +9345,6 @@ h1{
     display: block;
 }
 
-.card-info h4{
-    font-weight: 600;
-    font-size: 19px;
-}
 
 .card-info a.border-btn{
     border: 2px solid #2e2751;
@@ -9156,10 +9534,7 @@ h1{
   .circletspace{
     padding-top: 20px;
 }
-    .card-wrapper{
-    padding: 10px 10px 10px 30px;
-    border-radius: 30px;
-}
+ 
 
 .btn-white {
     background-color:#ffffff;
@@ -9410,10 +9785,7 @@ h1{
   .circletspace{
     padding-top: 20px;
 }
-.card-wrapper{
-    padding: 10px 10px 10px 30px;
-    border-radius: 30px;
-}
+
  .btn-white {
      background-color:#ffffff;
     color: #135ec3;
@@ -9692,10 +10064,7 @@ h1{
 .circletspace{
     padding-top: 20px;
 }
-.card-wrapper{
-    padding: 10px 10px 10px 30px;
-    border-radius: 30px;
-}
+
 
 
     .btn-white {
@@ -9978,10 +10347,7 @@ h1{
  .circletspace{
     padding-top: 64px;
 }
- .card-wrapper{
-    padding: 10px 10px 10px 30px;
-    border-radius: 30px;
-}
+
 
  .btn-white {
     background-color:#ffffff;
