@@ -852,7 +852,7 @@ li {
 
 .activate{
     padding-top: 30px;
-   background-color: #0f5fc2;
+   /*background-color: #0f5fc2;*/
    border-radius: 20px;
 }
 /* Fingertips Section */
@@ -1480,6 +1480,15 @@ li {
     border-top-left-radius: 15px;
 }
 
+@media only screen and (max-width 766px){
+    .mt-153{
+    margin-top: -153px;
+}
+
+}
+
+
+
 @media only screen and (max-width: 768px){
 
 /*.navbar-light .navbar-brand {
@@ -1500,9 +1509,7 @@ li {
 }
 
 
-.mt-153{
-    margin-top: -153px;
-}
+
 
 /*.fingr-content{
     font-size: 17px;
@@ -6837,7 +6844,7 @@ h1{
 }
 .sliderb{
     width: 592px;
-    height: 500px;
+    height: 371px;
   /*  padding-right: 87px;*/
     margin-top: -35px;
 }
