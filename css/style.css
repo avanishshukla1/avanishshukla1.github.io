@@ -327,7 +327,7 @@ header{
 }
 
 .ulli{
-    /*font-size: 15px;*/
+    font-size: 15px;
     text-indent: 20px;
     color:#0863bd ;
   
@@ -1693,13 +1693,10 @@ li {
     padding: 15px;
     margin-bottom: 15px;
 }
-
-   .card-wrapper{
+.card-wrapper{
     padding: 10px 10px 10px 30px;
     border-radius: 30px;
 }
-
-
 .near{
     font-size:20px;
      color:#666; 
@@ -1711,7 +1708,6 @@ li {
     font-size: 20px!important;
     border-radius: 50px!important;
 }
-
 .footerbg {
     background-image: url(../images/footer.png);
     background-repeat: no-repeat;
@@ -1760,9 +1756,6 @@ h2{
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
-
-
 .get-know-container {
     background-image: url(../images/get-know-Section-Background.png);
    /* background-position: 0% 80%;*/
@@ -1775,7 +1768,6 @@ h2{
     background-size: 100%;
     background-repeat: no-repeat;
 }
-
 .rotation-animations, .static-banner-headline {
    line-height: 30px;
     font-size: 24px;
@@ -1811,6 +1803,12 @@ h2{
 }
 
 
+.ecosys{
+    margin-top: -180px!important;
+}
+
+
+
 .border-blue{
     padding: 7px 5px 7px 6px;
      font-size: 13px;
@@ -1822,8 +1820,6 @@ h2{
    /*width: 138px;*/
    text-align: center;
 }
-
-
 
 .border-blue1{
     padding: 14px 25px;
