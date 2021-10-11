@@ -327,9 +327,10 @@ header{
 }
 
 .ulli{
-    font-size: 8px;
-    text-indent: 25px;
-    padding-bottom: 5px;
+    /*font-size: 15px;*/
+    text-indent: 20px;
+    color:#0863bd ;
+  
 }
 
 .bgblue{
@@ -1838,7 +1839,7 @@ h2{
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 22px;
-    font-weight: 900;
+    font-weight: 350;
 }
 
 /*.rotation-animations{
@@ -1879,9 +1880,7 @@ h2{
     border: 1px;
     width: 200px;
     margin-left: 19%;
-
 }
-
 .btn-class{
     padding: 7px 5px 7px 6px;
     font-size: 12px;
@@ -1892,6 +1891,14 @@ h2{
     width: 200px;
     text-align: center;
     margin: auto;
+}
+
+.testi img{
+    width: 150px!important;
+    border-radius: 50%!important;
+}
+.testi {
+    text-align: center;
 }
 
 .circle1{
@@ -2143,7 +2150,7 @@ h2{
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 22px;
-    font-weight: 900;
+    font-weight: 350;
 }
 
 .mainhead{
@@ -2186,6 +2193,16 @@ h2{
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
+.testi img{
+    width: 150px!important;
+    border-radius: 50%!important;
+}
+
+.testi {
+    text-align: center;
+}
+
 
 
 .border-blue1{
@@ -2588,6 +2605,16 @@ h1{
     background-size: 64%;
 }
 
+.testi img{
+    width: 150px!important;
+    border-radius: 50%!important;
+}
+.testi {
+    text-align: center;
+}
+
+
+
 .btn-class{
     padding: 7px 5px 7px 6px;
     font-size: 13px;
@@ -2902,6 +2929,16 @@ h1{
     background-position: 58% 13%;
 }
 
+.testi img{
+    width: 150px!important;
+    border-radius: 50%!important;
+}
+.testi {
+    text-align: center;
+}
+
+
+
 .border-blue1{
     padding: 14px 20px;
      font-size: 17px;
@@ -3182,6 +3219,14 @@ h1{
     background-position: right top;
     background-repeat: no-repeat;
     background-size: 40%;
+}
+
+.testi img{
+    width: 150px!important;
+    border-radius: 50%!important;
+}
+.testi {
+    text-align: center;
 }
 
 
@@ -3516,6 +3561,15 @@ h1{
     background-position: right top;
     background-repeat: no-repeat;
     background-size: 64%;
+}
+
+
+.testi img{
+    width: 150px!important;
+    border-radius: 50%!important;
+}
+.testi {
+    text-align: right;
 }
 
 
