@@ -7,7 +7,7 @@ body{
 	font-size:15px;
     font-family: 'Montserrat', sans-serif;  
      font-weight: 350;
-    line-height: 27px;
+    line-height: 25px;
     color: #666;
     letter-spacing: 1px;
     background-color: #fff;
@@ -274,8 +274,8 @@ header{
 
 .head1 {
     font-size: 28px;
-    font-weight: 800;
-    line-height: 40px;
+    font-weight: 700;
+    line-height: 37px;
     margin: 0 auto !important;
     color: #413f40;
 }
@@ -2303,8 +2303,9 @@ h2{
     background-size: 100%;
 }
 
-
-
+.ecosys{
+    margin-top: -180px!important;
+}
 
 .max-life{
     margin-top: -635px;
@@ -2351,7 +2352,6 @@ h2{
     margin-left: 63%;
    width: 70px;
 }
-
 .east{
      font-size: 13px;
      line-height: 17px;
@@ -2362,7 +2362,6 @@ h2{
     width: 160px;
 
 }
-
 .west{
      font-size: 12px;
     line-height: 17px;
@@ -2669,6 +2668,12 @@ h1{
     height: 240px;
    }
 
+
+.ecosys{
+    margin-top: -170px!important;
+}
+
+
 .max-life{
     margin-top: -714px;
     margin-left: 26px;
@@ -2895,11 +2900,9 @@ h1{
     padding: 10px 10px 10px 30px;
     border-radius: 30px;
 }
-
-
  .border-blue{
-        padding: 7px 5px 7px 6px;
-     font-size: 20px;
+ padding: 7px 5px 7px 6px;
+ font-size: 20px;
    border-radius: 19px;
     background-color: #0f5fc2;
     color: #ffffff;
@@ -2919,8 +2922,8 @@ h1{
     font-size: 32px;
 }
 
-       .dottedbg{
-        background-image: url('../images/dotted-circle.png');
+    .dottedbg{
+    background-image: url('../images/dotted-circle.png');
     background-size: 53%;
     background-repeat: no-repeat;
     background-position: 58% 13%;
@@ -2955,6 +2958,13 @@ h1{
     transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
     border: 1px;
 }
+
+.ecosys{
+    margin-top: -160px!important;
+}
+
+
+
 .max-life{
     margin-top: -819px;
     margin-left: 38px;
@@ -3224,6 +3234,10 @@ h1{
     text-align: center;
 }
 
+.ecosys{
+    margin-top: -150px!important;
+}
+
 
 .max-life{
     margin-top: -819px;
@@ -3450,12 +3464,10 @@ h1{
     margin-bottom: 15px;
     min-height: 280px;
 }
-
-   .card-wrapper{
+ .card-wrapper{
     padding: 10px 10px 10px 30px;
     border-radius: 30px;
 }
-
 .pgreenbtn{
     background-color: #0a8943;
     color:#ffffff;
@@ -3471,7 +3483,6 @@ h1{
 
 }
 
-
 .border-blue{
         padding: 14px 20px!important;
      font-size: 17px!important;
@@ -3481,7 +3492,6 @@ h1{
   font-weight: 550!important;
    transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
-
 
 .btn-class{
     padding: 14px 15px;
@@ -3513,9 +3523,6 @@ h1{
   font-weight: 550!important;
    transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
-
-
-
 .border-green1{
     background-color: #0a8943;
     color:#ffffff;
@@ -3564,6 +3571,11 @@ h1{
     float: right;
     padding-top: 30px;
     padding-left: 25px;
+}
+
+
+.ecosys{
+    margin-top: 4rem!important;
 }
 
 .max-life{
@@ -3743,8 +3755,6 @@ h1{
     padding: 10px 10px 10px 30px;
     border-radius: 30px;
 }
-
-
 .mrmns {
     margin-right: -30px;
 }
@@ -3768,7 +3778,6 @@ h1{
     border: 1px;
     width: 200px;
     margin-left: 27%;
-
 }
 
 .border-blue{
@@ -3841,18 +3850,14 @@ h1{
     float: right;
 }
 
-
-
 .max-life{
     margin-top: -819px;
     margin-left: 38px;
 }
-
 .fortis{
      margin-top: -908px;
      margin-left: 63px;
  }
-
 .srl{
     margin-top: -775px;
     margin-left: -30%;
@@ -5663,7 +5668,7 @@ h1{
      background-image: url(../images/get-know-Section-Background.png);
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
-    background-size: 53%;
+    background-size: 47%;
 }
 
 .get-know-container {
