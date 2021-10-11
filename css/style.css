@@ -788,9 +788,7 @@ li {
 .pr-activate{
     padding-right: 80px;
 }
-.h-100{
-    height: 100% !important;
-}
+
 .mt-80{margin-top: 80px;}
 
 .mt-100{margin-top: 100px;} 
@@ -1496,12 +1494,7 @@ li {
     border-top-left-radius: 15px;
 }
 
-@media only screen and (max-width 766px){
-    .mt-153{
-    margin-top: -153px;
-}
 
-}
 
 
 
@@ -2006,6 +1999,12 @@ h2{
     margin-left: 18%;
 }
 
+.mainhead{
+  padding-top: 30px;
+    }
+
+
+
 .circle2{
     background-color: #caf8f8;
     width: 150px;
@@ -2095,7 +2094,6 @@ h2{
 
 
 
-
 @media only screen and (min-width: 351px){
 
 .near{
@@ -2104,11 +2102,6 @@ h2{
      margin-left:-11px; 
      font-weight:350;
 }
-
-
-
-
-
 h1{
     font-size: 25px;
 }
@@ -2154,7 +2147,7 @@ h2{
 }
 
 .mainhead{
-  padding-top: 0px;
+  padding-top: 30px;
     }
 .sliderb{
     width: 336px;
@@ -11515,4 +11508,10 @@ transform:translateY(-50%);}
 
 button :focus {
 outline: 0;
+}
+@media only screen and (max-width 766px){
+    .mt-153{
+    margin-top: -153px!important;
+}
+
 }
