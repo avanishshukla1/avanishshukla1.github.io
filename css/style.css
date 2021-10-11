@@ -14,6 +14,7 @@ body{
    -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
      overflow-x: hidden!important;
+      scroll-behavior: smooth;
   }
 html{
     overflow-x: hidden!important;
@@ -193,8 +194,8 @@ a:hover{
     border-radius: 20px;
     padding: 20px;
     margin: 10px 5px 5px 10px;
-    width: 330px;
-    height: 330px;
+    width: 315px;
+    height: 320px;
 }
 
 
@@ -202,7 +203,7 @@ a:hover{
   font-family: Georgia, serif;
   content: "“";
   position: absolute;
-  bottom: 248px;
+  bottom: 230px;
   line-height: 100px;
   left: 10px;
  font-size: 70px;
@@ -219,13 +220,6 @@ a:hover{
   color: #99acc0;
  }
 
-
-
-
-
-
-
-
 .box2 img{
     width: 100px;
 }
@@ -239,8 +233,7 @@ a:hover{
 }
 
 .corporate{
-
-    /*box-shadow: 0 2px 20px 1px rgb(0 0 0 / 11%);*/
+   /*box-shadow: 0 2px 20px 1px rgb(0 0 0 / 11%);*/
     margin-top: 10px;
     margin-bottom: 10px;
    
@@ -332,22 +325,11 @@ header{
 .pl-123{
     padding-left: 123px;
 }
-.secondtop{
-    background-color:#ffffff;
-    font-weight: 400;
-    color: #014181;
-}
 
 .ulli{
     font-size: 8px;
     text-indent: 25px;
     padding-bottom: 5px;
-}
-
-.secondtop a{
- color: #014181;
- font-weight: 400;
-
 }
 
 .bgblue{
@@ -486,11 +468,6 @@ header{
 .topbar {
 	background-color: #2e2751;
 }
-.topbar p {
-    font-size: 18px;
-    font-weight: 500;
-    color: #ffffff;
-    }
 
 /* Fingertips Section */
 .fingr-inner-1, .fingr-inner-2, .fingr-inner-3{
@@ -501,17 +478,17 @@ header{
     color: #ffffff!important;
   /*  box-shadow: 0 10px 10px -8px rgb(0 0 0 / 50%);*/
     border-radius: 50px;
-    width: 100px;
+    width: 120px;
    font-weight: 700;
    text-align: center;
    padding: 10px;  
 }
+
 .btn1:hover{
     background: #004182!important;
     color: #fff!important;
     box-shadow: 0 10px 10px -8px rgb(0 0 0 / 50%);
-   border-radius: 50px;
-    width: 100px;
+    border-radius: 50px;
     padding: 10px;
     font-weight: 700;
     transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
@@ -536,7 +513,7 @@ header{
     color: #231f20;
     font-size: 26px;
     }
-.fingr-wrapper:hover{
+   .fingr-wrapper:hover{
     transform: scale(1.05);
 }
 
@@ -577,8 +554,6 @@ header{
     row-gap: 30px;
 }
 
-.fingertip-section{
-    }
 .bggrey{
     background-color: #f1fbfd;
 }
@@ -730,7 +705,6 @@ background-color:#75d6df;
     background-color: #0a8943;
     color:#ffffff;
 }
-
 
 /*.border-green1:after {
     content: '\f105';
@@ -1397,16 +1371,12 @@ li {
     width: 100%;
     background-repeat: no-repeat;
 }
-
-
 .inner-img01 {
     background-image: url(../images/providers.png);
 }
-
 .inner-img02 {
     background-image: url(../images/cities.png);
 }
-
 .inner-img03 {
     background-image: url(../images/lives-impacted.png);
 }
@@ -1425,21 +1395,15 @@ li {
 ._c_inner-img04{
     background-image: url(../images/Technology-enabled.png);
 }
-
 ._inner_icons_info h2{
     font-size: 32px;
     color: var(--bg-color);
     font-weight: 700;
 }
-
 ._inner_icons_info p{
     font-size: 18px;
     font-weight: 600;
 }
-
-
-/*   Agents New Icons End */
-
 
 /* Wonders What Section */
 
@@ -1560,9 +1524,6 @@ li {
     box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 20%);
 }
 
-
-
-
 /*.fingr-content{
     font-size: 17px;
     transform: translateY(100px);
@@ -1572,9 +1533,6 @@ li {
     font-weight: 600;
     margin-top: -90px;
 }*/
-
-
-
 .fingr-content{
     font-size: 17px;
    /* transform: translateY(100px);*/
@@ -1584,12 +1542,49 @@ li {
    
     /*margin-top: -90px;*/
 }
-
 .fingr-wrapper:hover .fingr-content{
     opacity: 1;
     transform: translateY(0px);
 }
 }
+
+
+
+@media only screen and (min-width: 575.50px){
+.activate2{
+    display: none;
+}
+.textlr{
+    text-align: left;
+}
+
+.agentbggrey{
+    background-color: #ebfaff;
+     margin-top: -122px!important;
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 20%);
+}
+
+.agentbottombg{
+    background-image:url('../images/agentbg1.png');
+     background-repeat: no-repeat;
+      background-size:100%;
+      }
+ .fingr-content{
+    font-size: 17px;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+    color: #666;
+    font-weight: 500;
+}
+.fingr-wrapper:hover .fingr-content{
+    opacity: 1;
+    transform: translateY(0px);
+}
+}
+
+
+
 
 @media only screen and (max-width: 768px){
     .formspace{
@@ -1611,9 +1606,6 @@ li {
    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 20%);
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-
-
-
 .formrds1 {
     display: block!important;
     width: 100%!important;
@@ -1641,6 +1633,9 @@ li {
     font-size:16px;
     font-weight:600;
     color:#fff;
+}
+.loginp{
+    padding-left: 0px;
 }
 }
 
@@ -1680,43 +1675,13 @@ li {
     color:#fff;
    /* margin:0 0 10px;*/
 }
+.loginp{
+    padding-left: 3rem;
+}
+
 }
 
 
-
-@media only screen and (min-width: 575.50px){
-.activate2{
-    display: none;
-}
-.textlr{
-    text-align: left;
-}
-
-.agentbggrey{
-    background-color: #ebfaff;
-     margin-top: -122px!important;
-    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 20%);
-}
-
-.agentbottombg{
-    background-image:url('../images/agentbg1.png');
-     background-repeat: no-repeat;
-      background-size:100%;
-      }
-
-.fingr-content{
-    font-size: 17px;
-    transform: translateY(100px);
-    opacity: 0;
-    transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
-    color: #666;
-    font-weight: 500;
-}
-.fingr-wrapper:hover .fingr-content{
-    opacity: 1;
-    transform: translateY(0px);
-}
-}
 
 
 
@@ -9312,7 +9277,6 @@ h1{
 
 
 @media only screen and (max-width: 768px){
-
 .mdcenter{
     justify-content: center;
 }
@@ -11166,8 +11130,8 @@ transform:translateY(-50%);}
 
 .navbar-expand-lg .navbar-nav .dropdown-menu{
      box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
-     
-}
+     width: 240px;
+     }
 
 .dropdown-menu{
     margin-right: 20%!important;
@@ -11214,7 +11178,8 @@ transform:translateY(-50%);}
     border-right: .3em solid transparent;
     border-bottom: 0;
     border-left: .3em solid transparent;
-    visibility: hidden!important;
+
+   /* visibility: hidden!important;*/
 }
 
 
