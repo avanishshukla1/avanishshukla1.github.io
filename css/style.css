@@ -194,7 +194,7 @@ a:hover{
     border-radius: 20px;
     padding: 20px;
     margin: 10px 5px 5px 10px;
-    width: 315px;
+    /*width: 315px;*/
     height: 320px;
 }
 
@@ -1897,7 +1897,7 @@ h2{
     width: 150px!important;
     border-radius: 50%!important;
 }
-.testi {
+.testimon{
     text-align: center;
 }
 
@@ -2198,12 +2198,9 @@ h2{
     width: 150px!important;
     border-radius: 50%!important;
 }
-
-.testi {
+.testimon{
     text-align: center;
 }
-
-
 
 .border-blue1{
     padding: 14px 25px;
@@ -2609,7 +2606,7 @@ h1{
     width: 150px!important;
     border-radius: 50%!important;
 }
-.testi {
+.testimon{
     text-align: center;
 }
 
@@ -2933,11 +2930,9 @@ h1{
     width: 150px!important;
     border-radius: 50%!important;
 }
-.testi {
+.testimon{
     text-align: center;
 }
-
-
 
 .border-blue1{
     padding: 14px 20px;
@@ -3225,11 +3220,9 @@ h1{
     width: 150px!important;
     border-radius: 50%!important;
 }
-.testi {
+.testimon{
     text-align: center;
 }
-
-
 
 
 .max-life{
@@ -3563,16 +3556,15 @@ h1{
     background-size: 64%;
 }
 
-
 .testi img{
-    width: 150px!important;
+    width: 100px!important;
     border-radius: 50%!important;
 }
-.testi {
-    text-align: right;
+.testimon{
+    float: right;
+    padding-top: 30px;
+    padding-left: 25px;
 }
-
-
 
 .max-life{
     margin-top: -498px;
@@ -3788,8 +3780,6 @@ h1{
   font-weight: 550!important;
    transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
-
-
 .btn-class{
     padding: 14px 15px;
     font-size: 17px;
@@ -3799,8 +3789,6 @@ h1{
     transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
     z-index: 1;
 }
-
-
 .border-blue1{
     padding: 14px 21px;
      font-size: 15px;
@@ -3844,6 +3832,16 @@ h1{
     background-repeat: no-repeat;
     background-size: 64%;
 }
+
+.testi img{
+    width: 100px!important;
+    border-radius: 50%!important;
+}
+.testimon{
+    float: right;
+}
+
+
 
 .max-life{
     margin-top: -819px;
@@ -4151,6 +4149,13 @@ h1{
     background-size: 64%;
 }
 
+.testi img{
+    width: 100px!important;
+    border-radius: 50%!important;
+}
+.testimon{
+    float: right;
+}
 
 .max-life{
     margin-top: -819px;
@@ -4472,6 +4477,15 @@ h1{
 }
 
 
+.testi img{
+    width: 100px!important;
+    border-radius: 50%!important;
+}
+.testimon{
+    float: right;
+}
+
+
 .max-life{
     margin-top: -682px;
     margin-left: 38px;
@@ -4749,6 +4763,14 @@ h1{
     background-size: 64%;
 }
 
+
+.testi img{
+    width: 100px!important;
+    border-radius: 50%!important;
+}
+.testimon{
+    float: right;
+}
 
 
 .max-life{
@@ -5048,6 +5070,15 @@ h1{
     background-position: right top;
     background-repeat: no-repeat;
     background-size: 46%;
+}
+
+
+.testi img{
+    width: 100px!important;
+    border-radius: 50%!important;
+}
+.testimon{
+    float: right;
 }
 
 .max-life{
