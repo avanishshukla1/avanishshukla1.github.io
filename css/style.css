@@ -131,53 +131,97 @@ a:hover{
      padding: 25px;
 }
 
-.healthcard{
 
+.accordion {
+  width: 100%;
+height: 100%;
+  overflow: hidden;
 
 }
 
-.healthcard1{
-z-index: 10;
-position: absolute;
+.accordion ul {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
 }
 
-.healthcard1 :hover{
-z-index: 10;
-position: relative;
-transform: scale(1.05);
-/* background-position: top -20%;*/
- transition: 0.3s;
+.accordion ul li {
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  width: 8.666%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 500ms ease;
+}
+
+.accordion ul li div {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+.accordion ul li div a {
+  display: block;
+  height: 250px;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  vertical-align: bottom;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  transition: all 200ms ease;
+}
+.accordion ul li div a * {
+  opacity: 0;
+  margin: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+
+.accordion ul:hover li { width: 8%; }
+.accordion ul:hover li:hover { width: 100%; }
+ .accordion ul:hover li:hover a { background: rgba(0, 0, 0, 0.4); }
+.accordion ul:hover li:hover a * {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
 }
 
 
 
-.healthcard2{
-    z-index: 9;
-    position: absolute;
-    padding-top: 30px;  
+/* @media screen and (max-width: 600px) {
+.accordion { height: auto; }
+.accordion ul li,
+.accordion ul li:hover,
+.accordion ul:hover li,
+.accordion ul:hover li:hover {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  -webkit-transition: none;
+  transition: none;
 }
+}*/
 
-.healthcard2:hover{
-z-index: 10;
-position: relative;
-transform: scale(1.05);
-/* background-position: top -20%;*/
- transition: 0.3s;
-}
 
-.healthcard3{
-    z-index: 8;
-    position: absolute;
-     padding-top: 62px;
-    }
 
-.healthcard3:hover{
-z-index: 10;
-position: relative;
-transform: scale(1.05);
-/* background-position: top -20%;*/
- transition: 0.3s;
-}
+
 
 
 .modal-content {
@@ -10811,11 +10855,11 @@ h1{
   background-color: #ccc;
 }*/
 
- .accordion:hover {
+/* .accordion:hover {
   background-color: #ccc;
-}
+}*/
 
-.accordion:after {
+/*.accordion:after {
   content: '\002B';
 color: #231f20;
   font-weight: bold;
@@ -10823,7 +10867,7 @@ color: #231f20;
   margin-left: 5px;
   font-size: 30px;
 }
-
+*/
 /*.active:after {
   content: "\2212";
 }*/
@@ -11566,48 +11610,5 @@ button :focus {
 outline: 0;
 }
 
-.panel {
-  background-size: auto 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 80vh;
-  border-radius: 50px;
-  color: #fff;
-  cursor: pointer;
-  flex: 0.5;
-  margin: 10px;
-  position: relative;
-  transition: flex 0.7s ease-in;
-  -webkit-transition: all 700ms ease-in;
-}
-
-.panel h3 {
-  font-size: 24px;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  margin: 0;
-  opacity: 0;
-}
-
-.panel.active {
-  flex: 5;
-}
-
-.panel.active h3 {
-  opacity: 1;
-  transition: opacity 0.3s ease-in 0.4s;
-}
-
-@media (max-width: 480px) {
-  .container {
-    width: 100vw;
-  }
-
-  .panel:nth-of-type(4),
-  .panel:nth-of-type(5) {
-    display: none;
-  }
-}
 
 
