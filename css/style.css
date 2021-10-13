@@ -203,23 +203,50 @@ a:hover{
         margin:30px auto;
     }
 
-    .sldr1 ul {}
+    .sldr1 ul {
+      
+}
+.sldr1 .carousel{
+ box-shadow: 7px 7px 30px -5px rgb(0 0 0 / 10%);
+}
+
+
 
     .sldr1ul li {
-        /* transition: width .5s, height .5s, top .5s, left .5s;
+         transition: width .5s, height .5s, top .5s, left .5s;
             -webkit-transition: width .5s, height .5s, top .5s, left .5s;
-            */
+            
             border:1px solid #fff;
+            box-shadow: 10px 10px 30px -5px rgb(0 0 0 / 10%)!important; 
+
     }
 
-    .sldr1 ul li img {}
+    .sldr1 ul li img {
+       box-shadow: 7px 7px 30px -5px rgb(0 0 0 / 10%);   
+    }
 
-    .left,
-    .right {
+    .left {
         cursor: pointer;
-        visibility: hidden;
+       padding-top: 30%;
+      font-size: 10px;
+      padding-left: 200px;
+      opacity: 0px;
+     
     }
 
+ .right {
+        cursor: pointer;
+       padding-top: 30%;
+      font-size: 10px;
+      padding-right: 200px;  
+      opacity: 0px;
+    }
+
+
+.optcard{
+    box-shadow: 7px 7px 30px -5px rgb(0 0 0 / 10%);
+
+}
 
 
 
@@ -10261,9 +10288,6 @@ h1{
     background-color: #0863bd !important;
     color: #ffffff;
 }
-
-
-
 }
 
 
