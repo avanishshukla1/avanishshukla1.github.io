@@ -347,13 +347,7 @@ header{
 }
 
 
-.head1 {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 37px;
-    margin: 0 auto !important;
-    color: #413f40;
-}
+
 .head2 {
         font-size: 18px;
     font-weight: 700;
@@ -1757,6 +1751,14 @@ li {
 .ml-4, .mx-4 {
     margin-left: 1rem!important;
 }
+.head1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 0 auto !important;
+    color: #413f40;
+}
+
 
 .box2{
     background-color: #ffffff;
@@ -2076,8 +2078,6 @@ h2{
   padding-top: 30px;
     }
 
-
-
 .circle2{
     background-color: #caf8f8;
     width: 150px;
@@ -2168,6 +2168,14 @@ h2{
 
 
 @media only screen and (min-width: 351px){
+
+.head1 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 0 auto !important;
+    color: #413f40;
+}
 
 .near{
     font-size:20px;
@@ -2583,6 +2591,15 @@ h2{
 
 @media only screen and (min-width: 401px){
 
+    .head1 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 0 auto !important;
+    color: #413f40;
+}
+
+
 
 .box2{
     background-color: #ffffff;
@@ -2733,13 +2750,9 @@ h1{
     width: 400px;
     height: 240px;
    }
-
-
 .ecosys{
     margin-top: -170px!important;
 }
-
-
 .max-life{
     margin-top: -714px;
     margin-left: 26px;
@@ -2926,6 +2939,14 @@ h1{
 
 
 @media only screen and (min-width: 500px){
+
+      .head1 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0 auto !important;
+    color: #413f40;
+}
 
 
 .pgreenbtn{
@@ -3239,6 +3260,16 @@ h1{
 
 
 @media only screen and (min-width: 600px){
+
+   .head1 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0 auto !important;
+    color: #413f40;
+}
+
+
 .pgreenbtn{
     background-color: #0a8943;
     color:#ffffff;
@@ -3503,6 +3534,16 @@ h1{
 
 
 @media only screen and (min-width: 700px){
+
+   .head1 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0 auto !important;
+    color: #413f40;
+}
+
+
 
 
 .box2{
@@ -3790,6 +3831,16 @@ h1{
 
 
 @media only screen and (min-width: 800px){
+
+
+   .head1 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0 auto !important;
+    color: #413f40;
+}
+
 
 .box2{
     background-color: #ffffff;
