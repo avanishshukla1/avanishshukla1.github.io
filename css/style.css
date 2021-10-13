@@ -4590,6 +4590,7 @@ h1{
     font-weight: 550!important;
     transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
     z-index: 1;
+    width: 50%;
 }
 
 .border-green1{
@@ -5817,7 +5818,7 @@ h1{
      background-image: url(../images/get-know-Section-Background.png);
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
-    background-size: 47%;
+    background-size: 46%;
 }
 
 .get-know-container {
@@ -6141,7 +6142,7 @@ h1{
      background-image: url(../images/get-know-Section-Background.png);
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
-    background-size: 49%;
+    background-size: 47%;
 }
 
 .get-know-container {
