@@ -36,7 +36,36 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="http://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
+ 
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+    <style>
+   
+    .sldr1 {
+        height: 300px;
+        margin:30px auto;
+    }
+
+    .sldr1 ul {}
+
+    .sldr1ul li {
+        /* transition: width .5s, height .5s, top .5s, left .5s;
+            -webkit-transition: width .5s, height .5s, top .5s, left .5s;
+            */
+            border:1px solid #fff;
+    }
+
+    .sldr1 ul li img {}
+
+    .left,
+    .right {
+        cursor: pointer;
+        visibility: hidden;
+    }
+    </style>
+
+
+
 
 </head>
   <body>
@@ -71,7 +100,7 @@
 
 
 <section class="bg-white">
-<div class="container rotar pb-1 mob mt-6 pt-5 pb-5">
+<div class="container rotar pb-1 mob mt-6 pt-5 ">
         <div class="row ">
             <div class="col-md-6 col-lg-6">
               <h1 class="static-banner-headline mb-0 pt-2">Hi, we're HealthAssure.</h1>
@@ -93,8 +122,7 @@
 
 
 <section class="bg-white desk">
-
-<div class="container rotar mt-6 pb-3 pt-3">
+ <div class="container rotar mt-6 pb-3 pt-3">
         <div class="row ">
             <div class="col-md-6 col-lg-6">
                  <h1 class="static-banner-headline mb-0 mainhead pt-6 ">Hi, we're HealthAssure.</h1>
@@ -102,7 +130,7 @@
                  <p class="rotation-animations pt-2 ">
                     <span id="box2words" > </span> </p>
              </div>
-            <div class="col-md-6 col-lg-6 pb-3  mdcenter">
+            <div class="col-md-6 col-lg-6 pb-1  mdcenter">
                 <div id="box1words" > </div>
            <div class="two-btn-wrapper d-flex mdcenter mt-4">
                     <a href="/opd" class="btn-class border-blue">Try our Plans </a>
@@ -116,27 +144,34 @@
 
 
 
-
-
 <section class="bggrey">
  <div class="container activate activate1 ">
    <div class="row">
         <div class="col-md-6 ">
-    <div class="accordion">
-     <ul> <li> <img src="images/card-1.png" alt="Fit Assure"> 
-    </li>
-    <li>
-    <img src="images/card-2.png" alt="Optima Assure">  
-    </li>
-    <li>
-  <img src="images/card-3.png" alt="Total Assure" >    
-    </li>
-    </ul>
+                          
+ <div class="sldr1"  id="sldr1">
+        <ul>
+            <li>
+                <img src="images/card-1.png" alt="" />
+            </li>
+            <li>
+                <img src="images/card-2.png" alt="" />
+            </li>
+            <li>
+                <img src="images/card-3.png" alt="" />
+            </li>
+          <img src="img/left.png" class="left">
+            <img src="img/right.png" class="right">
+        </ul>
+    </div>
+
+
+        
+
+            <!-- <img src="images/cardabab.png" class="img-fluid pt-5"> -->
+
 </div>
- </div>
-
-
-                  <div class="col-md-6 active1">
+ <div class="col-md-6 active1">
                  
             <h2 class=" pt-5 head">A Health Cover that you'll actually use </h2>           
             <p class=" pb-1 pt-3 ">See how our plans offer a better experience for people just like you</p>
@@ -160,10 +195,34 @@
 
   <div class="container activate activate2 ">
   <div class="row ">
-        <div class="col-md-6 active1">
+        <div class="col-md-12 active1">
 
-                  <h2 class=" pt-5 head">A Health Cover that you'll actually use </h2>      
+                  <h2 class=" pt-1 head">A Health Cover that you'll actually use </h2>      
                    <p class=" pb-1 pt-3 ">See how our plans offer a better experience for people just like you</p>
+
+
+
+         <div class="row ">
+        <div class="col-lg-12">
+          <div id="card-slider" class="owl-carousel mx-auto">
+
+            <!--TESTIMONIAL 1 -->
+          
+      <div class="item">
+             <img src="images/card-1.png" class="img-fluid" alt=" Fit Assure" >
+               </div>
+         <div class="item">
+             <img src="images/card-2.png" class="img-fluid" alt="Optima Assure">
+               </div>
+            <div class="item">
+             <img src="images/card-3.png" class="img-fluid" alt="Total Assure"  >
+              </div>
+        </div>
+        </div>
+      </div>
+
+
+
                     <ul>
                        <li> <i class="fa fa-check-circle ulli" aria-hidden="true"></i> Consult a doctor for Rs. 0 </li> 
                        <li> <i class="fa fa-check-circle ulli" aria-hidden="true"></i> Get Lab tests, medicines and more, within 5 kms</li> 
@@ -173,27 +232,13 @@
                     </ul>
 <p class=""> Sign up today and start using from Day 1. starting @just Rs. 999/yr </p>
                         <div class="d-flex  mdcenter pb-3">
-                        <a href="/opd" class="btn-class border-blue  mt-3"> Sign Me Up! </a>
+                        <a href="/opd" class="btn-class border-blue  "> Sign Me Up! </a>
                      </div>
                 </div>
       <div class="col-md-6">
-        
-    <div class="accordion">
-     <ul> <li> <img src="images/card-1.png" alt="Fit Assure"> 
-    </li>
-    <li>
-    <img src="images/card-2.png" alt="Optima Assure">  
-    </li>
-    <li>
-  <img src="images/card-3.png" alt="Total Assure" >    
-    </li>
-    </ul>
-</div>
 
-
-        <!--     <img src="images/card-1.png" class="img-fluid pt-2"> -->
-
-                   </div>
+ 
+ </div>
          </div>
   </div>
 </section>
@@ -204,16 +249,19 @@
 <section class="we-take-care mt-5">
     <div class="container">
          <div class="row">
-        <div class="col-md-6 pt-6">
+        <div class="col-md-6 pt-3">
              <h2 class="head" > You Are One of A Kind,  Your Care Should Be Too </h2>
               <p class="subhead" > Introducing <strong>'One Care' </strong></p>
                 <div class="linel" ></div>
                 <p class="pt-4 wecare">It's personalised care. 'One Care' is your dedicated team of Doctors, Health Coaches and care co-ordinators, to help you navigate your way to better health. </p>
                 <p class="wecare"><b> 24X7 Virtual care on your schedule, at no cost. Feeling sick, need help dealing with weight issues or sleep issues - Connect with an expert on phone  </b></p>
+
+
            </div>
-               <div class="col-md-6 pt-7 h-100">
-            <img src="images/whereur.png" class="img-fluid">
-        </div>
+           <div class="col-md-6 mainhead h-100 pb-3">
+                <img src="images/whereur.png" class="img-fluid">
+            </div>
+               
     </div>
     </div>
 </section>
@@ -224,7 +272,7 @@
          <div class="col-md-6 pt-5 mh-100">
             <img src="images/we-take-care.png" class="img-fluid">
              </div>
-   <div class="col-md-6 mb-5">
+   <div class="col-md-6 mb-5 pt-8">
          <p class="head"> Getting Help is Easy</p>
                 <div class="linel" ></div>
                 <p class="pt-4 wecare">Dont' rely on googling or guesswork for your health. Your Care team can help you get access to top rated doctors in your neighbourhood, prepare you for upcoming appointments and help you get the most out of your plans. </p>
@@ -247,7 +295,7 @@
                 </div>
       </div>
          <div class="col-md-6 pt-3 pb-5 d-none d-sm-block d-md-block">
-            <img src="images/we-take-care.png" class="img-fluid">
+            <img src="images/we-take-care.png" class="img-fluid" alt="we take care">
              </div>
  </div>
 </div>
@@ -296,7 +344,7 @@
         <div class="container desk1 mt-5">
 
           <div class="row mainhead" >
-            <div class="col-md-12  mb-5 pt-5">
+            <div class="col-md-12  mb-5">
        <h2 class="head text-center" > Access To Quality Healthcare Should Be Simple </h2>
                 <p class="subhead text-center" >This is how we do it </p>
                 <div class="line"></div>
@@ -332,7 +380,7 @@
    
 <!-- start your health companion section -->
 
-<section class="testimonials mainhead mt-5" id="fingertips" >
+<section class="testimonials mainhead" style="padding-top: 30px!important;" id="fingertips" >
     <div class="container text-center">
          <h2 class="head">Your Health Companion </h2>
             <p class="subhead"> It's All in the App! </p>
@@ -343,31 +391,29 @@
           <div id="customers-testimonials" class="owl-carousel mx-auto">
 
             <!--TESTIMONIAL 1 -->
-            <div class="item">
-     <img src="images/doctor-consultation.png" class="img-fluid ">
-        </div>
+            
       <div class="item">
-             <img src="images/general-physician.png" class="img-fluid" >
+             <img src="images/general-physician.png" class="img-fluid" alt=" General Physician" >
                </div>
          <div class="item">
-             <img src="images/pharmacy1.png" class="img-fluid">
+             <img src="images/pharmacy1.png" class="img-fluid" alt=" Pharmacy">
                </div>
             <div class="item">
-             <img src="images/diagnostic.png" class="img-fluid"  >
+             <img src="images/diagnostic.png" class="img-fluid" alt=" Diagnostics"  >
               </div>
           <div class="item">
-             <img src="images/tele-consultation.png" class="img-fluid" >
+             <img src="images/tele-consultation.png" class="img-fluid" alt="Tele Consultation" >
             </div>
            <div class="item">
-             <img src="images/wellness-mob.png" class="img-fluid" >
+             <img src="images/wellness-mob.png" class="img-fluid" alt="Wellness " >
             </div>
            </div>
         </div>
       </div>
  <div class="row">
     <div class="col-md-12 text-center ">
-       <a href="https://play.google.com/store/apps/details?id=com.healthassure" target="_blank"><img src="images/play-store.jpg" class="img-fluid w-14"> </a> 
-        <a href="https://apps.apple.com/in/app/healthpass-doctors-health/id1397803100" target="_blank"> <img src="images/app-store.jpg" class="img-fluid w-14"> </a>
+       <a href="https://play.google.com/store/apps/details?id=com.healthassure" target="_blank"><img src="images/play-store.jpg" class="img-fluid w-14" alt=" Play store"> </a> 
+        <a href="https://apps.apple.com/in/app/healthpass-doctors-health/id1397803100" target="_blank"> <img src="images/app-store.jpg" class="img-fluid w-14" alt="App Store"> </a>
       </div>
     </div>
  </div>
@@ -396,7 +442,7 @@
                         </div>
                     </div>
 
-        <div class="col-12 text-center input-start-search d-flex justify-content-center pt-5 desk1">
+        <div class="col-12 text-center input-start-search d-flex justify-content-center pt-3 desk1">
                         <div class="d-flex search-box">
                             <div >
                                 <input type="search" name="input_search_query" id="input_search_query"
@@ -416,7 +462,7 @@
 
 
 
-<div class="row flex-cr-gap desk1 pt-5">
+<div class="row flex-cr-gap desk1 pt-3">
                 <div class="col-md-12">
                     <div id="serviceslider1" class="owl-carousel">
                         <div class="post-slide2">
@@ -428,7 +474,7 @@
                                         <a href="#" class="border-btn"> Coming Soon </a>
                                     </div>
                                     <div class="card-img " style="width: 40%;"><img
-                                            src="images/diagnostic-services.png" alt="" class="img-fluid align-self-end"></div>
+                                            src="images/diagnostic-services.png" alt=" Diagnostics Services" class="img-fluid align-self-end"></div>
                                 </div>
                               </div>
             <div class="post-slide2">
@@ -440,7 +486,7 @@
                                         <a href="#" class="border-btn"> Coming Soon </a>
                                     </div>
                                     <div class="card-img" style="width: 40%;"><img src="images/Physical-Exam.png"
-                                            alt="" class="img-fluid"></div>
+                                            alt=" Physicial Exam" class="img-fluid"></div>
                                 </div>
                                  </div>
                         
@@ -453,7 +499,7 @@
                                         <a href="#" class="border-btn"> Coming Soon </a>
                                     </div>
                                     <div class="card-img" style="width: 40%;"><img
-                                            src="images/tele-consultations.png" alt="" class="img-fluid"></div>
+                                            src="images/tele-consultations.png" alt=" Tele Consultation" class="img-fluid"></div>
                                 </div>
                                   </div>
 
@@ -466,7 +512,7 @@
                                         <a href="#" class="border-btn"> Coming Soon </a>
                                     </div>
                                     <div class="card-img" style="width: 40%;"><img
-                                            src="images/In-person-Consultation.png" alt="" class="img-fluid">
+                                            src="images/In-person-Consultation.png" alt=" In Person Consultation" class="img-fluid">
                                     </div>
                                 </div>
                            </div>
@@ -488,7 +534,7 @@
                                         <a href="#" class="border-btn"> Coming Soon</a>
                                     </div>
                                     <div class="card-img " style="width: 40%;"><img
-                                            src="images/diagnostic-services.png" alt="" class="img-fluid align-self-end"></div>
+                                            src="images/diagnostic-services.png" alt=" Diagnostic Services" class="img-fluid align-self-end"></div>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 darkb">
@@ -500,7 +546,7 @@
                                         <a href="#" class="border-btn">Coming Soon</a>
                                     </div>
                                     <div class="card-img" style="width: 40%;"><img src="images/Physical-Exam.png"
-                                            alt="" class="img-fluid"></div>
+                                            alt=" Physical Exam" class="img-fluid"></div>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6  darkb mh-100">
@@ -511,8 +557,7 @@
                                         <h3 class="disc3">15%<span style="font-size: 20px; margin-left: 3px;">off</span></h3>
                                         <a href="#" class="border-btn">Coming Soon</a>
                                     </div>
-                                    <div class="card-img" style="width: 40%;"><img
-                                            src="images/tele-consultations.png" alt="" class="img-fluid"></div>
+                    <div class="card-img" style="width: 40%;"><img src="images/tele-consultations.png" alt=" Tele Consultation" class="img-fluid"></div>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 darkb">
@@ -524,7 +569,7 @@
                                         <a href="#" class="border-btn">Coming Soon </a>
                                     </div>
                                     <div class="card-img" style="width: 40%;"><img
-                                            src="images/In-person-Consultation.png" alt="" class="img-fluid">
+                                            src="images/In-person-Consultation.png" alt=" In Person Consultation" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -544,12 +589,12 @@
            </div>
         </div>
 
-        <div class="row pt-5 dottedbg ">
+        <div class="row pt-3 dottedbg ">
             <div class="col-md-10 offset-md-2 col-sm-12 ">
                 <div class="row  pt-5">
                   <div class="col-md-3 pt-5  col-sm-3">
                 <div class="circle2 ">
-                <img src="images/insurance-companies.png" class="img-fluid w-25 circletspace ">
+                <img src="images/insurance-companies.png" alt=" Insurance Companies" class="img-fluid w-25 circletspace ">
                     <h3>20M+ </h3>
                     <p> Tests & Consultations </p>
                <p> <i class="fa fa-chevron-right text-circle2" aria-hidden="true"></i></p>
@@ -558,7 +603,7 @@
          
           <div class="col-md-3 col-sm-3">
                 <div class="circle1 ">
-                    <img src="images/providers.png" class="img-fluid w-25 circletspace ">
+                    <img src="images/providers.png" class="img-fluid w-25 circletspace" alt="Providers" >
                     <h3>7K+ </h3>
                     <p> Providers</p>
                <p> <i class="fa fa-chevron-right text-success" aria-hidden="true"></i> </p>
@@ -567,7 +612,7 @@
           
            <div class="col-md-3 col-sm-3">
                 <div class="circle4">
-                    <img src="images/Corporates1.png" class="img-fluid w-25 circletspace ">
+                    <img src="images/Corporates1.png" class="img-fluid w-25 circletspace" alt="Corporate Icon">
                     <h3>2M+ </h3>
                     <p> Lives Impacted </p>
                <p> <i class="fa fa-chevron-right" aria-hidden="true"></i></p>
@@ -576,7 +621,7 @@
 
              <div class="col-md-3  col-sm-3">
                 <div class="circle3">
-                    <img src="images/agents.png" class="img-fluid w-25 circletspace ">
+                <img src="images/agents.png" class="img-fluid w-25 circletspace" alt="Agents">
                     <h3>200+ </h3>
                     <p> Corporates </p>
                <p> <i class="fa fa-chevron-right" aria-hidden="true"></i></p>
@@ -606,118 +651,118 @@
 <div id="corporateslider" class="owl-carousel">
        <div class="post-slide2">
    <div class="col">
-        <img src="corporate/aditya-birla.png" class="img-fluid corporate">
+        <img src="corporate/aditya-birla.png" class="img-fluid corporate" alt=" Aditya Birla">
    </div>
          </div>
             
  <div class="post-slide2">
 <div class="col">
-        <img src="corporate/kotak-life.jpg" class="img-fluid corporate">
+        <img src="corporate/kotak-life.jpg" class="img-fluid corporate" alt="Kotak Life">
    </div>
  </div>
 
 <div class="post-slide2">
 <div class="col">
-        <img src="corporate/fedex.png" class="img-fluid corporate">
+        <img src="corporate/fedex.png" class="img-fluid corporate" alt="Fedex">
    </div>
  </div>
  <div class="post-slide2">
 <div class=" col">
-        <img src="corporate/hdfc-life.png" class="img-fluid corporate">
+        <img src="corporate/hdfc-life.png" class="img-fluid corporate" alt="Hdfc Life">
    </div>
 </div>
 <div class="post-slide2">
  <div class="col">
-        <img src="corporate/met-life.jpg" class="img-fluid corporate">
+        <img src="corporate/met-life.jpg" class="img-fluid corporate" alt="Met Life">
    </div>
     </div>
 
             <div class="post-slide2">
     <div class="col">
-        <img src="corporate/lic.png" class="img-fluid corporate">
+        <img src="corporate/lic.png" class="img-fluid corporate" alt="Lic Life Insurance">
    </div>
 </div>
     <div class="post-slide2">
 <div class="col">
-        <img src="corporate/reliance-life.png" class="img-fluid corporate">
+        <img src="corporate/reliance-life.png" class="img-fluid corporate" alt="Reliance Life Insurance">
    </div>
  </div>
   <div class="post-slide2">
  <div class="col ">
-        <img src="corporate/birla-sun-life.jpg" class="img-fluid corporate">
+        <img src="corporate/birla-sun-life.jpg" class="img-fluid corporate" alt="Birla Sun Life">
    </div>
 </div>
 <div class="post-slide2">
  <div class="col">
-        <img src="corporate/deutsche-bank.jpg" class="img-fluid corporate">
+        <img src="corporate/deutsche-bank.jpg" class="img-fluid corporate" alt="Deutsche Bank">
    </div>
  </div>
 
 <div class="post-slide2">
    <div class="col">
-        <img src="corporate/max-life.jpg" class="img-fluid corporate">
+        <img src="corporate/max-life.jpg" class="img-fluid corporate" alt=" Max Life">
    </div>
  </div>
     <div class="post-slide2">
  <div class="col ">
-        <img src="corporate/icici-bank.png" class="img-fluid corporate">
+        <img src="corporate/icici-bank.png" class="img-fluid corporate" alt=" Icici Bank">
    </div>
 </div>
  
  <div class="post-slide2">
 <div class="col">
-        <img src="corporate/max-bupa.png" class="img-fluid corporate">
+        <img src="corporate/max-bupa.png" class="img-fluid corporate" alt="Max Bupa">
    </div>
  </div>
  <div class="post-slide2">
 <div class="col ">
-        <img src="corporate/icici-prudental.png" class="img-fluid corporate">
+        <img src="corporate/icici-prudental.png" class="img-fluid corporate" alt="Icici Prudential">
    </div>
 </div>
    <div class="post-slide2">
  <div class="col ">
-        <img src="corporate/tata-aia.png" class="img-fluid corporate">
+        <img src="corporate/tata-aia.png" class="img-fluid corporate" alt=" Tata Aia">
    </div>
 </div>
 
    <div class="post-slide2">
 <div class="col ">
-        <img src="corporate/deloitte.png" class="img-fluid corporate">
+        <img src="corporate/deloitte.png" class="img-fluid corporate" alt="Deloitte">
    </div>
 </div>
  <div class="post-slide2">
 <div class="col ">
-        <img src="corporate/kotak-mahindra.png" class="img-fluid corporate">
-   </div>
-</div>
-
- <div class="post-slide2">
-<div class="col ">
-        <img src="corporate/niyo-x.png" class="img-fluid corporate">
+    <img src="corporate/kotak-mahindra.png" class="img-fluid corporate" alt="Kotak Mahindra">
    </div>
 </div>
 
  <div class="post-slide2">
 <div class="col ">
-        <img src="corporate/ge-logo.png" class="img-fluid corporate">
+        <img src="corporate/niyo-x.png" class="img-fluid corporate" alt="Niyo x">
    </div>
 </div>
 
  <div class="post-slide2">
 <div class="col ">
-        <img src="corporate/ubs.png" class="img-fluid corporate">
+        <img src="corporate/ge-logo.png" class="img-fluid corporate" alt="Ge Logo">
    </div>
 </div>
 
  <div class="post-slide2">
 <div class="col ">
-        <img src="corporate/standard-chartered.png" class="img-fluid corporate">
+        <img src="corporate/ubs.png" class="img-fluid corporate" alt="Ubs">
    </div>
 </div>
 
  <div class="post-slide2">
 <div class="col ">
-        <img src="corporate/indus-tower.png" class="img-fluid corporate">
+        <img src="corporate/standard-chartered.png" class="img-fluid corporate" alt="Standard Chartered">
+   </div>
+</div>
+
+ <div class="post-slide2">
+<div class="col ">
+        <img src="corporate/indus-tower.png" class="img-fluid corporate" alt="Indus Tower">
    </div>
 </div>
 </div>
@@ -752,7 +797,7 @@
                                   </div>
                                   <div class="row pt-5">
                                     <div class="col-md-4 testi">
-                                    <img src="images/sodexo-testi.jpg" class=" img-fluid ">
+                                    <img src="images/sodexo-testi.jpg" class=" img-fluid" alt="Sodexo">
                                        </div>
                                     <div class="col-md-8 testimon"> 
                                     <p><b>VP, Engagement <br>
@@ -768,7 +813,7 @@
 
                                  <div class="row pt-5">
                                     <div class="col-md-4 testi">
-                                     <img src="images/niyo-x-testi.jpg" class="img-fluid">
+                                     <img src="images/niyo-x-testi.jpg" class="img-fluid" alt="Niyo X">
                                     </div>
                                     <div class="col-md-8 testimon"> 
                                    <p><b>Consumer Engagement Head <br> 
@@ -784,7 +829,7 @@
                                   </div>
                               <div class="row pt-5">
                                     <div class="col-md-4 testi">
-                                     <img src="images/indus-tower-testi.jpg" >
+                                     <img src="images/indus-tower-testi.jpg" alt="Indus Tower" >
                                </div>
                                     <div class="col-md-8 testimon"> 
                                       <p><b>VP <br>
@@ -800,7 +845,7 @@
                                   </div>
                                <div class="row pt-5">
                                     <div class="col-md-4 testi">
-                                    <img src="images/ge-logo-testi.jpg" class="img-fluid">
+                                    <img src="images/ge-logo-testi.jpg" class="img-fluid" alt="Ge Logo">
                                  </div>
                                     <div class="col-md-8 testimon"> 
                                       <p><b>VP, Engagement<br>
@@ -830,33 +875,33 @@
                 </div>
                 <div class="row ">
                     <div class="col-lg-5 col-md-5 col-sm-12 pt-5 ">
-<img src="images/map.png" class="img-fluid">
+<img src="images/map.png" class="img-fluid" alt="India Map">
 <div class="row">
 
 <div class=" col-lg-3 col-md-4 col-sm-3">
-        <img src="images/max-life.png" class="img-fluid max-life">
+        <img src="images/max-life.png" class="img-fluid max-life" alt="Max Life">
     </div>
 <div class="col-lg-3  col-md-4 col-sm-3">
-        <img src="images/fortis.png" class="img-fluid fortis">
+        <img src="images/fortis.png" class="img-fluid fortis" alt="Fortis">
          </div>
 <div class="col-lg-3 col-md-4 col-sm-3">
-        <img src="images/srl-logo.png" class="img-fluid srl">
+        <img src="images/srl-logo.png" class="img-fluid srl" alt="SRL Diagnostics">
          </div>
  <div class="col-lg-3 col-md-4 col-sm-3">
- <img src="images/healthcare.png" class="img-fluid miracles-healthcare">
+ <img src="images/healthcare.png" class="img-fluid miracles-healthcare" alt="Miracles Healthcare">
          </div>
  <div class="col-lg-3  col-md-4 col-sm-3">
-        <img src="images/medall.png" class="img-fluid medall">
+        <img src="images/medall.png" class="img-fluid medall" alt="Medall ">
           </div>
 <div class="col-lg-3 col-md-4 col-sm-3">
-        <img src="images/apolloclinic.png" class="img-fluid apolloclinic">
+        <img src="images/apolloclinic.png" class="img-fluid apolloclinic" alt="Apollo Clinics">
         
 </div>
 <div class="col-lg-3 col-md-4 col-sm-3">
-        <img src="images/lal-path-logo.png" class="img-fluid lalpath">
+        <img src="images/lal-path-logo.png" class="img-fluid lalpath" alt="Lal Path">
          </div>
  <div class="col-lg-3  col-md-4 col-sm-3">
-        <img src="images/express-clinic.png" class="img-fluid express-clinic">
+        <img src="images/express-clinic.png" class="img-fluid express-clinic" alt="Express Clinics">
         </div>
 <!-- <div class=" col-lg-3 col-md-4 col-sm-3">
       <p class="north "> North<br> 2823 centers </p>
@@ -881,14 +926,14 @@
 <div class="col-lg-7 col-md-7 ecosys">
                         <div class="text-center   h-100 ">
     <h5 class="mb-5 head1 ">7000+ primary care centers in <br> 1500+ cities across India</h5>
-                            <img src="images/appicons.png" alt="" class="img-fluid">
+                            <img src="images/appicons.png" alt="" class="img-fluid" alt="Appicons">
                         </div>
                     </div>
                 </div>
         </div>
 </section>
 
-<div class="container mainhead pb-5" id="media">
+<div class="container mainhead" style="padding-top: 30px!important;" id="media">
         <div class="row">
             <div class="col-12 text-center">
                 <h2 class="head">As Seen In</h2>
@@ -899,14 +944,14 @@
         <div class="row pt-5 ">
             <div class="col-md-11 clients-slider" style="margin: 0 auto;">
                 <section class="customer-logos slider">
-                    <div class="slide"><img src="images/logo-1.jpg" class="img-fluid"></div>
-                    <div class="slide"><img src="images/logo-2.jpg" class="img-fluid"></div>
-                    <div class="slide"><img src="images/logo-3.jpg" class="img-fluid"></div>
-                    <div class="slide"><img src="images/logo-4.jpg" class="img-fluid"></div>
-                    <div class="slide"><img src="images/logo-1.jpg" class="img-fluid"></div>
-                    <div class="slide"><img src="images/logo-2.jpg" class="img-fluid"></div>
-                    <div class="slide"><img src="images/logo-3.jpg" class="img-fluid"></div>
-                    <div class="slide"><img src="images/logo-4.jpg" class="img-fluid"></div>
+                    <div class="slide"><img src="images/logo-1.jpg" class="img-fluid" alt="E Health"></div>
+                    <div class="slide"><img src="images/logo-2.jpg" class="img-fluid" alt="IIFL"></div>
+                    <div class="slide"><img src="images/logo-3.jpg" class="img-fluid" alt=" Business World"></div>
+                    <div class="slide"><img src="images/logo-4.jpg" class="img-fluid" alt="Express Healthcare"></div>
+                    <div class="slide"><img src="images/logo-1.jpg" class="img-fluid" alt="E Health"></div>
+                    <div class="slide"><img src="images/logo-2.jpg" class="img-fluid" alt="IIFL"></div>
+                    <div class="slide"><img src="images/logo-3.jpg" class="img-fluid" alt=" Business World"></div>
+                    <div class="slide"><img src="images/logo-4.jpg" class="img-fluid" alt="Express  Healthcare"></div>
                 </section>
             </div>
         </div>
@@ -916,7 +961,7 @@
 <div class="get-know-container   mt-4 pb-5" id="package">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center mainhead pb-5">
+                <div class="col-12 text-center mainhead">
                     <h2 class="head">Get To know Your Health Better</h2>
                     <p class="subhead"> Explore now</p>
                     <div class="line"></div>
@@ -926,7 +971,7 @@
             <div class="row flex-cr-gap d-flex get-know-cards">
                 <div class="col-xs-12  col-sm-12 col-md-6 col-lg-4">
                     <div class="d-flex card-wrapper p-0  align-items-center card-0">
-                        <div class="card-img cardimg" style="width: 50%;"><img src="images/talk-doctor.jpg" alt="" class="img-fluid cardrds" ></div>
+                        <div class="card-img cardimg" style="width: 50%;"><img src="images/talk-doctor.jpg" alt="" class="img-fluid cardrds" alt="Talk Doctor"></div>
                         <div class="card-info ">
                             <h5 class=" mb-0 darkb1"> Talk to our doctor now</h5>
                           
@@ -940,15 +985,15 @@
                             <h5 class="mb-0  bold1" > Get your Health score </h5>
                             <a href="https://www.healthassure.in/products/HAHomePage/HRA?" target="_blank" class="border-btn ">Book Now</a>
                         </div>
-                        <div class="card-img cardimg" style="width: 52%;"><img src="images/healthscore.jpg" alt=""  class="img-fluid cardlrds"></div>
+                        <div class="card-img cardimg" style="width: 52%;"><img src="images/healthscore.jpg" alt=" Healthscore"  class="img-fluid cardlrds"></div>
                     </div>
                 </div>
                   <div class="col-xs-12  col-sm-12 col-md-6 col-lg-4 d-flex">
                     <div class="d-flex card-wrapper p-0 card-2 bggrey"
                         style="flex-direction: column;">
-                        <div class="card-img" ><img src="images/fitness.jpg" alt=""
+                        <div class="card-img" ><img src="images/fitness.jpg" alt=" Fitness"
                                 class="img-fluid cardlsrds"></div>
-                        <div class="card-info darkb1" >
+                        <div class="card-info darkb1">
                             <div class="pt-3 pb-3">
                                 <h5 class="mb-0 pt-4">Live Fitness <br> Session</h5>
                                
@@ -963,7 +1008,7 @@
                 <div class="col-xs-12  col-sm-12 col-md-6 col-lg-4 d-flex">
                     <div class="d-flex card-wrapper p-0 align-items-center card-3"
                         style="flex-direction: column;">
-                        <div class="card-img" ><img src="images/blog.jpg" alt=""
+                        <div class="card-img" ><img src="images/blog.jpg" alt=" Blog"
                                 class="img-fluid cardlsrds"></div>
                         <div class="card-info darkb1">
                             <div class="pt-3 pb-3">
@@ -1120,7 +1165,7 @@
 
 <div class="row">
    <div class="col-lg-6  ">
-    <img src="images/call-center1.png" class="img-fluid mob1">
+    <img src="images/call-center1.png" class="img-fluid mob1" alt="call us">
         
     </div>
 
@@ -1170,6 +1215,7 @@
     </script> -->
 
      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+         <script src="js/Carousel.js"></script>
  
 
 
@@ -1189,6 +1235,30 @@ $('.navbar-light .dmenu').hover(function () {
 });
 
 </script>
+
+
+
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $('.sldr1').carousel({
+            num: 5,
+            maxWidth: 450,
+            maxHeight: 300,
+            distance: 50,
+            scale: 0.6,
+            animationTime: 1000,
+            showTime: 3000
+        });
+    });
+    </script>
+
+
+
+
+
+
+
+
 
   
 </body>
