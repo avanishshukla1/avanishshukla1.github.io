@@ -198,10 +198,27 @@ a:hover{
   transform: translateX(0);
 }
 
+ .sldr1 {
+        height: 300px;
+        margin:30px auto;
+    }
 
+    .sldr1 ul {}
 
+    .sldr1ul li {
+        /* transition: width .5s, height .5s, top .5s, left .5s;
+            -webkit-transition: width .5s, height .5s, top .5s, left .5s;
+            */
+            border:1px solid #fff;
+    }
 
+    .sldr1 ul li img {}
 
+    .left,
+    .right {
+        cursor: pointer;
+        visibility: hidden;
+    }
 
 
 
@@ -1641,6 +1658,11 @@ li {
     opacity: 1;
     transform: translateY(0px);
 }
+
+
+
+
+
 }
 
 
@@ -1783,6 +1805,17 @@ li {
     font-size: 20px!important;
     border-radius: 50px!important;
 }
+.footerbg404 {
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: 115%;
+    padding-top: 147px;
+    background-position: 92% 7%;
+    background-color: #f1fbfd;
+}
+
+
+
 .footerbg {
     background-image: url(../images/footer.png);
     background-repeat: no-repeat;
@@ -2298,6 +2331,17 @@ h2{
     transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
     border: 1px;
 }
+
+.footerbg404{
+   background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: 115%;
+    padding-top: 200px;
+    background-position: 92% 7%;
+    background-color: #f1fbfd;
+}
+
+
 .footerbg{
    background-image: url(../images/footer.png);
     background-repeat: no-repeat;
@@ -3050,8 +3094,6 @@ h1{
     margin-top: -160px!important;
 }
 
-
-
 .max-life{
     margin-top: -819px;
     margin-left: 38px;
@@ -3060,7 +3102,7 @@ h1{
 .fortis{
      margin-top: -908px;
      margin-left: 63px;
- }
+}
 
 .srl{
     margin-top: -775px;
@@ -3255,6 +3297,12 @@ h1{
     text-align: left;
     padding-top: 15px;
 }
+
+.whereu{
+    padding-top: 80px;
+}
+
+
 
 }
 
@@ -3529,6 +3577,11 @@ h1{
     text-align: left;
     padding-top: 15px;
 }
+.whereu{
+    padding-top: 80px;
+}
+
+
 }
 
 
@@ -3825,15 +3878,15 @@ h1{
     text-align: left;
     padding-top: 15px;
 }
+.whereu{
+    padding-top: 80px;
 }
 
 
-
+}
 
 @media only screen and (min-width: 800px){
-
-
-   .head1 {
+.head1 {
     font-size: 26px;
     font-weight: 600;
     line-height: 30px;
@@ -4131,6 +4184,11 @@ h1{
     transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
     border: 1px;
 }
+
+.whereu{
+    padding-top: 60px;
+}
+
 }
 
 
@@ -4736,6 +4794,10 @@ h1{
 .healthcampbox h5{
     color: #0f5fc2;
 }
+.whereu{
+    padding-top: 60px;
+}
+
 
 }
 
@@ -5635,14 +5697,10 @@ h1{
     width: 200px;
     margin-left: 9%;
 }
-
-
-   .card-wrapper{
+ .card-wrapper{
     padding: 10px 10px 10px 30px;
     border-radius: 30px;
 }
-
-
 .border-green1{
     background-color: #0a8943;
     color:#ffffff;
@@ -5733,6 +5791,14 @@ h1{
     background-repeat: no-repeat;
     background-size: 47%;
 }
+.footerbg404 {
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: 114%;
+    padding-top: 241px;
+    background-position: 83% 5%;
+    background-color: #f1fbfd;
+}
 .footerbg {
     background-image: url(../images/footer.png);
     background-repeat: no-repeat;
@@ -5741,8 +5807,6 @@ h1{
     background-position: 83% 5%;
     background-color: #fff;
 }
-
-
 .max-life{
     margin-top: -819px;
     margin-left: 38px;
@@ -5751,7 +5815,6 @@ h1{
      margin-top: -908px;
      margin-left: 63px;
  }
-
 .srl{
     margin-top: -275px;
     margin-left: -211%;
@@ -5804,7 +5867,6 @@ h1{
     width: 160px;
     text-align: center;
 }
-
 .south{
      font-size: 13px;
      line-height: 17px;
@@ -5928,6 +5990,11 @@ h1{
     text-align: center;
     margin:auto;
 }
+
+.whereu{
+    padding-top: 20px;
+}
+
 }
 
 
@@ -7217,6 +7284,18 @@ h1{
     background-repeat: no-repeat;
     background-size: 50%;
 }
+
+
+.footerbg404 {
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: 117%;
+    padding-top: 304px;
+    background-position: 83% 5%;
+    background-color: #f1fbfd;
+}
+
+
 
 .footerbg {
     background-image: url(../images/footer.png);
