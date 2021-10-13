@@ -945,7 +945,7 @@ li {
 /* Activate */
 
 .activate{
-    padding-top: 30px;
+    /*padding-top: 10px;*/
    /*background-color: #0f5fc2;*/
    border-radius: 20px;
 }
@@ -1551,14 +1551,17 @@ li {
 }
 
 .cardrds{
-    border-top-right-radius: 36px;
-    border-bottom-right-radius: 36px;
+    border-radius: 36px;
+    /*border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;*/
 }
 
 .cardlrds{
-    border-top-left-radius: 36px;
-    border-bottom-left-radius: 36px;
+    border-radius: 36px;
+    /*border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;*/
 }
+ 
 .cardlsrds{
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
@@ -1771,6 +1774,7 @@ li {
      color:#666; 
      margin-left:-11px; 
      font-weight:350;
+     width: 80px;
 }
 .connect{
     padding: 10px 20px!important;
@@ -5761,7 +5765,7 @@ h1{
 }
 
 .mainhead{
-  padding-top: 50px;
+  padding-top: 80px;
     }
 
 .card-info h4{
@@ -11591,6 +11595,4 @@ transform:translateY(-50%);}
 button :focus {
 outline: 0;
 }
-
-
 
