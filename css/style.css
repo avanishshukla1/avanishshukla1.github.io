@@ -32,6 +32,8 @@ html{
     display: none!important;
 } 
 }
+
+
 .h-111{
     height: 80px;
 }
@@ -3411,7 +3413,6 @@ h1{
      margin-top: -908px;
      margin-left: 63px;
  }
-
 .srl{
     margin-top: -775px;
     margin-left: -30%;
@@ -3454,7 +3455,6 @@ h1{
       margin-left: -10%;
     width: 160px;
 }
-
 .north{
     font-size: 13px;
     line-height: 17px;
@@ -3464,7 +3464,6 @@ h1{
     width: 160px;
     text-align: center;
 }
-
 .south{
      font-size: 13px;
      line-height: 17px;
@@ -3610,8 +3609,6 @@ h1{
 .whereu{
     padding-top: 80px;
 }
-
-
 }
 
 
@@ -3632,8 +3629,6 @@ h1{
      margin-left:-11px; 
      font-weight:350;
 }
-
-
 .box2{
     background-color: #ffffff;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
@@ -3658,7 +3653,6 @@ h1{
     border: 1px;
     width: 200px;
     margin-left: 27%;
-
 }
 
 .border-blue{
@@ -3750,8 +3744,6 @@ h1{
     padding-top: 30px;
     padding-left: 25px;
 }
-
-
 .ecosys{
     margin-top: 4rem!important;
 }
@@ -3764,8 +3756,7 @@ h1{
 .fortis{
      margin-top: -571px;
      margin-left: 11px;
-     
- }
+     }
 
 .srl{
       margin-top: -168px;
@@ -3952,6 +3943,11 @@ h1{
 .pl-88{
     padding-left:88px;
 }
+
+.wher{
+    padding-left: 3.5rem;
+}
+
 
 
 .pgreenbtn{
@@ -5818,7 +5814,7 @@ h1{
      background-image: url(../images/get-know-Section-Background.png);
    /* background-position: 0% 80%;*/
     background-repeat: no-repeat;
-    background-size: 46%;
+    background-size: 41%;
 }
 
 .get-know-container {
