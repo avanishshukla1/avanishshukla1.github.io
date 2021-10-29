@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 User-agent: *
 Disallow: 
 Crawl-delay: 5
 Disallow: /cgi-bin/
 Sitemap: https://opd.healthassure.in/
+=======
+Sitemap: https://opd.healthassure.in/sitemap.xml
+>>>>>>> db80a2401873455e22527bccc9ee0b69c10aa24c
