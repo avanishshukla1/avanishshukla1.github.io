@@ -203,6 +203,7 @@ a:hover{
  .sldr1 {
         height: 300px;
         margin:30px auto;
+        z-index: 777;
     }
 
     .sldr1 ul {
