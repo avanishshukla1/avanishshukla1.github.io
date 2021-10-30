@@ -454,6 +454,11 @@ footer .social ul li a{
     border-left: 5px solid #2ECC71;
 }
 
+ .activeplan {
+    background-color: #ffeea9!important;
+}
+
+
 #generic_price_table .generic_content .generic_price_btn a{
     border: 1px solid #2ECC71; 
     color: #2ECC71;
