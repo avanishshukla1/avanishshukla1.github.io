@@ -66,6 +66,13 @@ footer .social ul li a{
     background-origin: border-box;
      background-size: cover;
 }
+.bgmain1{
+    background-image: url('../images/heppyplan.jpg');
+    background-repeat: no-repeat;
+    background-position:100%;
+    background-origin: border-box;
+     background-size: cover;
+}
 
 .box{
     color: #ffffff;
@@ -77,9 +84,6 @@ footer .social ul li a{
 .bg-blue{
  background-color:#004182;
 }
-
-
-
 .pt-6{
     padding-top: 5rem;
 }
@@ -143,6 +147,7 @@ footer .social ul li a{
         }
         .offer {
             padding-top: 5rem;
+           
         }
      .map h1 {
             font-size: 100px;
